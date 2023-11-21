@@ -1,0 +1,49 @@
+.reviewSection{
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+  padding: 33.333px 85.333px;
+  padding-top:50px;
+  height:100%;
+ 
+}
+
+.card--content{
+ display:flex;
+ justify-content:center;
+ gap:10px;
+ flex-wrap:wrap;
+ /*border:1px solid red;*/
+}
+.singleCard{
+  width:100%;
+  border:1px solid lightgray;
+  padding:10px;
+  
+  gap:20px;
+  
+}
+.reviewProfileImg{
+ width:50px;
+ height:50px;
+}
+
+.reviewerTitleBox{
+ display:flex;
+  align-items: center;
+  gap:5px;
+}
+
+ @media only screen and (max-width: 1200px) {
+.reviewSection{
+
+  padding: 33.333px 15.333px;
+  height:100%;
+ 
+}
+
+
+ 
+}
+ 
+

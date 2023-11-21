@@ -1,0 +1,75 @@
+.locationSection{
+  display: flex;
+  padding: 20.333px 85.333px;
+  flex-direction:column;
+  padding-bottom:0;
+  }  
+ 
+  
+  .locationImgSize{
+   width:100%;
+   height:100%;
+   position: relative;
+ 
+  }
+  .locationImgSize img {
+  width:100%;
+  max-height:600px;
+  border-radius: 8px;
+ 
+}
+
+.locaticonIcon{
+position:absolute;
+ max-width:30px;
+ max-height:30px;
+ top:36%;
+ left:43%;
+ transition: transform 0.3s, width 0.3s, height 0.3s;
+ 
+}
+.locaticonIcon:hover {
+
+  max-width: 40px;
+  max-height: 40px; 
+}
+
+
+
+
+ @media only screen and (max-width: 1200px) {
+.locationSection{
+  display: flex;
+  padding: 30.333px 15.333px;
+  flex-direction:column;
+  padding-bottom:0;
+  }  
+ 
+
+.locaticonIcon{
+ top:35%;
+ left:42%;
+
+ 
+}
+ 
+ } 
+ 
+ @media only screen and (max-width: 600px) {
+ .locaticonIcon{
+ top:30%;
+ left:41%;
+
+}
+ 
+ }
+ 
+ 
+ @media only screen and (max-width: 400px) {
+ .locaticonIcon{
+ top:20%;
+ left:39%;
+
+}
+ 
+ }

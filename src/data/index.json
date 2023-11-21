@@ -1,0 +1,292 @@
+{
+ "details":[
+ {
+ "id":1,
+ "title":"Adults:",
+ "value":" 4"
+
+ },
+ {
+ "id":2,
+ 
+ "title":"Amenities:",
+ "value":"Air conditioning, Beachfront, Dining area, Flat-screen TV, Free parking, Free WiFi, Outdoor pool, Terrace"
+ 
+ },
+ {
+ "id":3,
+
+ "title":"Views:",
+ "value":"Seaside"
+ 
+ },
+ {
+ "id":4,
+ 
+ "title":"Size",
+ "value":"240m² "
+ 
+ },
+{
+ "id":5,
+ 
+ "title":"Bed Type",
+ "value":"1 Queen bed, 4 Tween beds, 1 Full bed "
+ 
+ }
+],
+
+"kitchenroom":[
+ {
+ "id":1,
+ "src":"./img/kichenroom1.webp",
+ "title":"Kitchen Room"
+
+ },
+ {
+ "id":2,
+ "src":"./img/kichenroom2.webp",
+ "title":"Kitchen Room"
+ 
+ },
+ {
+ "id":3,
+ "src":"../img/kichenroom3.webp",
+ "title":"Kitchen Room"
+
+ }
+
+],
+
+"livingroom":[
+ {
+ "id":1,
+ "src":"./img/livingroom1.webp",
+ "title":"Living Room"
+
+ },
+ {
+ "id":2,
+ "src":"./img/livingroom2.webp",
+ "title":"Living Room"
+ 
+ },
+ {
+ "id":3,
+ "src":"../img/livingroom4.webp",
+ "title":"Living Room"
+
+ }
+
+],
+"bedroom1":[
+ {
+ "id":1,
+ "src":"./img/bedroom1.webp",
+ "title":"Bed Room 1"
+
+ },
+ {
+ "id":2,
+ "src":"./img/bedroom1-2.webp",
+ "title":"Bed Room 1"
+ 
+ },
+ {
+ "id":3,
+ "src":"../img/bedroom1-3.webp",
+ "title":"Bed Room 1"
+
+ }
+
+
+],
+"bedroom2":[
+ 
+ {
+ "id":1,
+ "src":"./img/bedroom2-2.webp",
+ "title":"Bed Room 2"
+ 
+ },
+ {
+ "id":2,
+ "src":"../img/bedroom2-3.webp",
+ "title":"Bed Room 2"
+
+ },
+ {
+ "id":3,
+ "src":"../img/bedroom2-4.webp",
+ "title":"Bed Room 2"
+
+ }
+
+
+],
+"backyard":[
+ 
+ {
+ "id":1,
+ "src":"./img/backyard2.webp",
+ "title":"Backyard"
+ 
+ },
+ {
+ "id":2,
+ "src":"../img/backyard3.webp",
+ "title":"Backyard"
+
+ },
+ {
+ "id":3,
+ "src":"../img/backyard4.webp",
+ "title":"Backyard"
+
+ }
+
+
+],
+"pool":[
+ {
+ "id":1,
+ "src":"./img/pool1.webp",
+ "title":"Pool"
+
+ },
+ {
+ "id":2,
+ "src":"./img/pool2.webp",
+ "title":"Pool"
+ 
+ }
+
+
+],
+"dingroom":[
+ {
+ "id":1,
+ "src":"./img/dingroom3.webp",
+ "title":"Dining Room"
+
+ },
+ {
+ "id":2,
+ "src":"./img/dingroom3.webp",
+ "title":"Dining Room"
+ 
+ },
+ {
+ "id":3,
+ "src":"./img/dingroom3.webp",
+ "title":"Dining Room"
+ 
+ }
+
+
+],
+
+
+"additions":[
+ {
+ "id":1,
+ "src":"../img/addition_photos3.webp",
+ "title":"Additions"
+
+ },
+ {
+ "id":2,
+ "src":"../img/addition_photos3.webp",
+ "title":"Additions"
+ 
+ },
+ {
+ "id":3,
+ "src":"../img/addition_photos3.webp",
+ "title":"Additions"
+
+ }
+
+],
+"exteriors":[
+ {
+ "id":1,
+ "src":"./img/exterior1.webp",
+ "title":"Exteriors"
+
+ },
+ 
+ {
+ "id":2,
+ "src":"../img/exterior3.webp",
+ "title":"Exteriors"
+
+ },
+ {
+ "id":3,
+ "src":"../img/exterior4.webp",
+ "title":"Exteriors"
+
+ }
+],
+"cover":[
+ {
+ "id":1,
+ "src":"./img/backyard1.webp",
+ "title":"Kichen Room"
+
+ },
+ {
+ "id":2,
+ "src":"./img/bedroom1.webp",
+ "title":"Bed Room 1"
+ 
+ },
+ {
+ "id":3,
+ "src":"../img/bedroom2-2.webp",
+ "title":"Bed Room 2"
+
+ },
+ {
+ "id":4,
+ "src":"../img/livingroom1.webp",
+ "title":"Living Room"
+
+ },
+  {
+ "id":5,
+ "src":"../img/exterior5.webp",
+ "title":"Exteriors"
+
+ },
+  {
+ "id":6,
+ "src":"../img/backyard2.webp",
+ "title":"Backyard"
+
+ },
+   {
+ "id":7,
+ "src":"../img/addition_photos2.webp",
+ "title":"Addtions"
+
+ },
+  {
+ "id":8,
+ "src":"../img/dingroom1.webp",
+ "title":"Dining Room"
+
+ },
+ {
+ "id":8,
+ "src":"../img/exterior4.webp",
+ "title":"Pool"
+
+ }
+
+]
+
+
+
+}
