@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ann_villa/static/css/main.a60ac78e.css",
+    "main.js": "/ann_villa/static/js/main.77bb1377.js",
+    "index.html": "/ann_villa/index.html",
+    "main.a60ac78e.css.map": "/ann_villa/static/css/main.a60ac78e.css.map",
+    "main.77bb1377.js.map": "/ann_villa/static/js/main.77bb1377.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a60ac78e.css",
+    "static/js/main.77bb1377.js"
+  ]
+}
