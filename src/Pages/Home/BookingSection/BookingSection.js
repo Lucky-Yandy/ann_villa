@@ -1,13 +1,20 @@
 import './BookingSection.css';
-import React, { useState } from 'react'; 
+import React, { useState, useEffect } from 'react'; 
 import { differenceInCalendarDays } from 'date-fns';
+import theChangableBase from'../base.js';
+/////////////////////////////////////////////////////
 import DatePicker from 'react-date-picker';
 import 'react-date-picker/dist/DatePicker.css';
 import 'react-calendar/dist/Calendar.css';
+//////////////////////////////////////////////////////
+import { Calendar,DateRangePicker } from 'react-date-range';
+import 'react-date-range/dist/styles.css'; // main style file
+import 'react-date-range/dist/theme/default.css'; // theme css file
 
 const BookingSection = () => {
   const [checkIn, setCheckIn] = useState(new Date());
   const [checkOut, setCheckOut] = useState(null);
+ const [fetchDates, setFetchDates] = useState({});
   
   const [numOfGuests, setNumOfGuests] = useState(1);
   const [kidsOfGuests, setKidsOfGuests] = useState(0);
@@ -23,14 +30,19 @@ const BookingSection = () => {
     const newEndDate = new Date(date);
     newEndDate.setDate(date.getDate() + 5);
     setMinDate(newEndDate);	
-    setCheckOut(newEndDate);
-   
-    
+    setCheckOut(newEndDate);   
   };
+  
+  
+  
+  
   const handleEndDateChange = (date) => {
      setCheckOut(date);
   };
-  
+  useEffect(() => {
+    const today = new Date();
+    handleStartDateChange(today);
+  }, []); 
  
   const isDateInRange = ({ date }) => {
 	  if (!checkIn) {
@@ -65,14 +77,75 @@ const BookingSection = () => {
   const handleEmailInput = (e) => {
    setEmail(e.target.value);
   };
+ 
+ ////////////////////////////////////////////////////
+  useEffect(() => {
+  const fetchData = async () => {
+    const allRecordsOfDates = [];
+
+    await theChangableBase('booking calender')
+      .select({ view: 'Dates' })
+      .eachPage(
+        (records, fetchNextPage) => {
+           allRecordsOfDates.push(...records);
+          fetchNextPage();
+        },
+        async (err) => {
+          if (err) {
+            console.error('Error fetching records:', err);
+          } else {
+            setFetchDates( allRecordsOfDates);
+            console.log(fetchDates);
+          }
+        }
+      );
+  };
+
+  fetchData();
+}, []);
+ 
+ 
+   const disabledDates = [
+       
+       new Date(2023, 12, 25),
+       new Date(2023, 12, 26), 
+       new Date(2023, 12, 27),
+       new Date(2023, 12, 29), 
+    ];
+   
+   const selectionRange = {
+      startDate:checkIn,
+      endDate:checkOut,
+      key: 'selection',
+    }
+ 
+ 
+  const handleSelect = (ranges) => {
   
+    setCheckIn(ranges.selection.startDate);
+    
+    setCheckOut(ranges.selection.endDate);
+     console.log(ranges);
+  };
+ 
+ 
  
   return (
   
   <div id="booking" className="bookingSection">
   <h2 style={{marginBottom: "10px"}}> Booking </h2>
+  <div className="bookingContent">
+  
    <div className="leftPart"> 
-    
+     <DateRangePicker
+        ranges={[selectionRange]}
+        onChange={handleSelect}
+       disabledDates={disabledDates}
+        showDateDisplay={false}
+        direction="vertical"
+        months={6}
+        minDate={ new Date()}
+      />
 
 </div>
     <form action="https://formsubmit.co/431a94d9ac5b5f1bddbfb9e3f5070f0b" method="POST" className="rightPart">
@@ -90,6 +163,7 @@ const BookingSection = () => {
                         className="custom-date-picker"
                         tileClassName={isDateInRange}
                         clearIcon={null}
+                        
 
               />
           </div>
@@ -115,7 +189,7 @@ const BookingSection = () => {
 	        min="1" 
 	        required/>
         </div>
-         { checkIn && checkOut &&(
+     
          <div>
          <div className="form-style">
            
@@ -152,9 +226,8 @@ const BookingSection = () => {
 	         onChange={handlePhoneInput}
 	         required/>
 	 </div>
-	 
 	</div>
-         )}
+       
       </div>
      
       <button className="bookingbutton" type="submit">Reserve</button>
@@ -175,12 +248,13 @@ const BookingSection = () => {
             <div className="summary--section totalPrice">
               <span>Total before taxes</span>
                { numberOfNights > 0 ?
-              <span>{285*numberOfNights + 69}</span>:<span>{285*numberOfNights}</span>}
+              <span>${285*numberOfNights + 69}</span>:<span>{285*numberOfNights}</span>}
             </div>
           </div>
    )}
   </div>
     </form>
+    </div>
   </div>
   );
 };

@@ -1,8 +1,9 @@
 .navbar {
-  position: absolute;
-  z-index: 9999;
+  position: flex; 
   display: flex;
+  z-index:3;
   justify-content: space-between;
+  
   align-items: center;
   padding: 15px 85.333px;
   background: var(--white);
@@ -53,6 +54,7 @@
  color:darkgreen;
  text-decoration: underline;
 }
+
 .nav__hamburger {
   display: none;
   width: 2.075rem;
@@ -84,13 +86,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 70px; 
-  height: 70px;
+  max-width: 70px; 
+  max-height: 70px;
+ 
   
 }
 .ann_house_icon-container > img{
-  width: 80px; 
-  height: 80px;
+  max-width: 70px; 
+  max-height: 70px;
  
 }
 
@@ -98,7 +101,7 @@
     display: flex;
     z-index: 200;
     right:85.333px;
-    top:35px;
+    top:36px;
   }
   .navbar--items {
     display: flex;
@@ -129,7 +132,7 @@
     padding: 0.5rem;
   }
   .navbar--items {
-    z-index: -1000;
+    z-index: -5;
   }
   .navbar--items.active {
     top: 30px;
@@ -166,13 +169,29 @@
   
 }
 .ann_house_icon-container > img{
-  width: 70px; 
-  height: 70px;
+  max-width: 70px; 
+  max-height: 70px;
   
 }
 }
 
 
+@media only screen and (max-width: 760px) {
+
+.ann_house_icon-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px; 
+  height: 40px;
+  
+}
+.ann_house_icon-container img{
+  max-width: 60px; 
+  max-height: 60px;
+  
+}
+}
 
 
 

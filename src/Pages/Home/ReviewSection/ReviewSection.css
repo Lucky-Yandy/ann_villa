@@ -10,7 +10,7 @@
 
 .card--content{
  display:flex;
- justify-content:center;
+ justify-content:start;
  gap:10px;
  flex-wrap:wrap;
  /*border:1px solid red;*/
@@ -32,6 +32,14 @@
  display:flex;
   align-items: center;
   gap:5px;
+}
+.card--content>button{
+
+ height:2em;
+ font-size:1em;
+}
+.showMoreButton{
+   border:none;
 }
 
  @media only screen and (max-width: 1200px) {

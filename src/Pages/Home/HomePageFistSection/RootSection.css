@@ -144,13 +144,15 @@ h2 {
   position: relative;
   display: flex;
   padding: 0.333px 85.333px;
-  padding-bottom:0px;
+  margin-top:133.33px;
+  
+  
   
 }
 
 .home--section > img {
   width: 100%;
-  height: 800px; /* Adjust as needed */
+  max-height: 600px; /* Adjust as needed */
 }
 
 
@@ -160,7 +162,7 @@ h2 {
   top: 0.333px;
   left: 85.333px;
   right: 85.333px;
-  height: 800px;
+  height: 600px;
   width: calc(100% - 170.666px); 
   background: rgba(0, 0, 0, 0.3);
   z-index: 2;
@@ -214,7 +216,12 @@ h2 {
 }
 @media only screen and (max-width: 1024px) {
 .home--section {
- padding: 133.333px 15.333px 33.333px 15.333px ;
+ padding: 0.333px 15.333px;
+  
+}
+.home--section {
+ 
+  
   
 }
 .home--section > img {
@@ -224,7 +231,7 @@ h2 {
 .home--indexInner {
   
   position: absolute;
-  top: 133.333px;
+  top: 0.333px;
   left: 15.333px;
   right: 15.333px;
   height: 600px;
@@ -250,7 +257,7 @@ h2 {
 }
 @media only screen and (max-width: 767px) {
 .home--section {
-  padding-bottom: 30px;
+  padding-bottom: 20px;
   
 }
 .home--section > img {

@@ -32,13 +32,13 @@ function Navbar() {
       <div className="ann_house_icon-container" >
         <img src="./img/ann_house_icon2.png" alt="ann_house_icon" /> 
       </div>
-      <button 
+      <a href="#"
         className={`nav__hamburger ${navActive ? "active" : ""}`}
         onClick={toggleNav}>
         <span className="nav__hamburger__line"></span>
         <span className="nav__hamburger__line"></span>
         <span className="nav__hamburger__line"></span>
-      </button>
+      </a>
       <div className={`navbar--items ${navActive ? "active" : ""}`}>
         <ul>
           <li>
@@ -157,13 +157,28 @@ function Navbar() {
           </li>
         </ul>
       </div>
-      <div
-        className="navbar--active-content"
-       
-      ><img src="./img/EnglishButtom.png" alt="footerPic"/>
-      </div>
+     
     </nav>
   );
 }
 
 export default Navbar;
+
+/*
+ <div
+        className="navbar--active-content"
+       
+      ><img src="./img/EnglishButtom.png" alt="footerPic"/>
+      </div>
+
+*/
+
+
+
+
+
+
+
+
+
+
