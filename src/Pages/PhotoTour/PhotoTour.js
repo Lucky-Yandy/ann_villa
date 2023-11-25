@@ -1,11 +1,18 @@
 import data from "../../data/index.json";
 import React,{useState} from "react";
 import { useNavigate } from 'react-router-dom';
- import { Link } from "react-scroll";
+ 
 import "./PhotoTour.css";
-//import arrow from "./img/arrow.png";
+//import arrow from "img/arrow.png";
 function PhotoTour() {
   const navigate = useNavigate();
+  
+  const handleNavigation = (sectionId) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
   return (
     <div  className="photoTour" >
      
@@ -19,43 +26,43 @@ function PhotoTour() {
      <h2 id ="topOfPage">PhotoTour</h2>
      <nav className="photoTourNav--links"> 
        
-        <Link to="kitchenRoom"> 
+        <button onClick={() => handleNavigation("kitchenRoom")}> 
 	  <img src={data.cover[0].src} alt="Photo" />
           <p className="image-label">{data.cover[0].title}</p>
-        </Link>
-         <Link to="bedRoom1"> 
+        </button>
+         <button onClick={() => handleNavigation("bedRoom1")}> 
 	  <img src={data.cover[1].src} alt="Photo" />
           <p className="image-label">{data.cover[1].title}</p>
-        </Link>
-         <Link to="bedRoom2"> 
+        </button>
+         <button onClick={() => handleNavigation("bedRoom2")}> 
 	  <img src={data.cover[2].src} alt="Photo" />
           <p className="image-label">{data.cover[2].title}</p>
-        </Link>
-         <Link to="livingRoom"> 
+        </button>
+         <button  onClick={() => handleNavigation("livingRoom")} > 
 	  <img src={data.cover[3].src} alt="Photo" />
           <p className="image-label">{data.cover[3].title}</p>
-        </Link>
+        </button>
            
-        <Link to="Exteriors"> 
+        <button  onClick={() => handleNavigation("Exteriors")} > 
 	  <img src={data.cover[4].src} alt="Photo" />
           <p className="image-label">{data.cover[4].title}</p>
-        </Link>  
-        <Link to="backyard"> 
+        </button>  
+        <button  onClick={() => handleNavigation("backyard")}> 
 	  <img src={data.cover[5].src} alt="Photo" />
           <p className="image-label">{data.cover[5].title}</p>
-        </Link>  
-         <Link to="Addtions"> 
+        </button>  
+         <button  onClick={() => handleNavigation("Addtions")}> 
 	  <img src={data.cover[6].src} alt="Photo" />
           <p className="image-label">{data.cover[6].title}</p>
-        </Link> 
-        <Link to="diningRoom"> 
+        </button> 
+        <button  onClick={() => handleNavigation("diningRoom")}> 
 	  <img src={data.cover[7].src} alt="Photo" />
           <p className="image-label">{data.cover[7].title}</p>
-        </Link> 
-         <Link to="pool"> 
+        </button> 
+         <button  onClick={() => handleNavigation("pool")} > 
 	  <img src={data.cover[8].src} alt="Photo" />
-          <p className="image-label">{data.cover[8].title}</p>
-        </Link> 
+	   <p className="image-label">{data.cover[8].title}</p>
+        </button> 
      
      </nav>
       

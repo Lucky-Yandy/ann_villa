@@ -10,7 +10,7 @@ import ContactMe from "../ContactMe/ContactMe.js";
 import Footer from '../Footer/Footer.js';
 export default function Home(){
   return (
-      <>
+      <div>
        <RootSection />  
        <InfoSection />  
        <PictureSection />
@@ -19,7 +19,7 @@ export default function Home(){
        <Location />
        <ContactMe />
        <Footer />
-     </>
+     </div>
   )
 }
 

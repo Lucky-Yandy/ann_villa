@@ -8,6 +8,16 @@
   margin-bottom:20px;
 
 }
+.potoTourPage{
+position:absolute;
+background-color:pink;
+width:100vh;
+height:100vh;
+z-index:100;
+
+
+}
+
  .displayCoverPic {
   display: grid;
   grid-template-columns: repeat(4, 1fr); /* Set the width of each column to 200px */

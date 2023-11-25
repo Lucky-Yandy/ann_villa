@@ -2,7 +2,7 @@
 .photoTour{
   position:absolute;
   background-color:white;
-  z-index:10000; 
+  z-index:8; 
   right:0px; 
   left:0px;
  
@@ -32,11 +32,13 @@ margin-left:40px;
   width: 100%;
 }
 
-.photoTourNav--links a {
+.photoTourNav--links button {
   display: block;
   width: 100%;
   height: 100%;
   position: relative;
+  border:none;
+  background-color:white;
 }
 
 .photoTourNav--links img {
@@ -53,7 +55,7 @@ margin-left:40px;
 .image-label {
   
   color: var(--black);
-  font-size: 8px;
+  font-size: 15px;
   font-style: normal;
   font-weight: 400;
   line-height: 21px;

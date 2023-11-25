@@ -10,7 +10,7 @@
 
 .card--content{
  display:flex;
- justify-content:start;
+ justify-content:flex-start;
  gap:10px;
  flex-wrap:wrap;
  /*border:1px solid red;*/
