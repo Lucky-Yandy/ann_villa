@@ -150,13 +150,13 @@
 "pool":[
  {
  "id":1,
- "src":"./img/pool1.webp",
+ "src":"/img/pool1.webp",
  "title":"Pool"
 
  },
  {
  "id":2,
- "src":"./img/pool2.webp",
+ "src":"/img/pool2.webp",
  "title":"Pool"
  
  }
@@ -166,19 +166,19 @@
 "dingroom":[
  {
  "id":1,
- "src":"./img/dingroom3.webp",
+ "src":"/img/dingroom3.webp",
  "title":"Dining Room"
 
  },
  {
  "id":2,
- "src":"./img/dingroom3.webp",
+ "src":"/img/dingroom3.webp",
  "title":"Dining Room"
  
  },
  {
  "id":3,
- "src":"./img/dingroom3.webp",
+ "src":"/img/dingroom3.webp",
  "title":"Dining Room"
  
  }
@@ -190,19 +190,19 @@
 "additions":[
  {
  "id":1,
- "src":"../img/addition_photos3.webp",
+ "src":"/img/addition_photos3.webp",
  "title":"Additions"
 
  },
  {
  "id":2,
- "src":"../img/addition_photos3.webp",
+ "src":"/img/addition_photos3.webp",
  "title":"Additions"
  
  },
  {
  "id":3,
- "src":"../img/addition_photos3.webp",
+ "src":"/img/addition_photos3.webp",
  "title":"Additions"
 
  }
@@ -211,20 +211,20 @@
 "exteriors":[
  {
  "id":1,
- "src":"./img/exterior1.webp",
+ "src":"/img/exterior1.webp",
  "title":"Exteriors"
 
  },
  
  {
  "id":2,
- "src":"../img/exterior3.webp",
+ "src":"/img/exterior3.webp",
  "title":"Exteriors"
 
  },
  {
  "id":3,
- "src":"../img/exterior4.webp",
+ "src":"/img/exterior4.webp",
  "title":"Exteriors"
 
  }
@@ -232,55 +232,55 @@
 "cover":[
  {
  "id":1,
- "src":"./img/backyard1.webp",
+ "src":"/img/backyard1.webp",
  "title":"Kichen Room"
 
  },
  {
  "id":2,
- "src":"./img/bedroom1.webp",
+ "src":"/img/bedroom1.webp",
  "title":"Bed Room 1"
  
  },
  {
  "id":3,
- "src":"../img/bedroom2-2.webp",
+ "src":"/img/bedroom2-2.webp",
  "title":"Bed Room 2"
 
  },
  {
  "id":4,
- "src":"../img/livingroom1.webp",
+ "src":"/img/livingroom1.webp",
  "title":"Living Room"
 
  },
   {
  "id":5,
- "src":"../img/exterior5.webp",
+ "src":"/img/exterior5.webp",
  "title":"Exteriors"
 
  },
   {
  "id":6,
- "src":"../img/backyard2.webp",
+ "src":"/img/backyard2.webp",
  "title":"Backyard"
 
  },
    {
  "id":7,
- "src":"../img/addition_photos2.webp",
+ "src":"/img/addition_photos2.webp",
  "title":"Addtions"
 
  },
   {
  "id":8,
- "src":"../img/dingroom1.webp",
+ "src":"/img/dingroom1.webp",
  "title":"Dining Room"
 
  },
  {
- "id":8,
- "src":"../img/exterior4.webp",
+ "id":9,
+ "src":"/img/exterior4.webp",
  "title":"Pool"
 
  }
