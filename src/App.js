@@ -21,7 +21,7 @@ Webspace Pad: /mnt/rid/81/29/526648129/htdocs/
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename="/ann_villa/">
        <div> 
        <Navbar />
        

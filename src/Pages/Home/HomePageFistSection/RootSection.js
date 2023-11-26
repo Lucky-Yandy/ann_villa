@@ -1,10 +1,10 @@
 import React from 'react';
 import "./RootSection.css";
-import homepagebackground from "../../../img/homepagebackground.webp";
+
  function RootSection(){
   return( 
       <section id="root" className="home--section" >
-       <img src={ homepagebackground} alt="background" /> 
+       <img src="./img/homepagebackground.webp" alt="background" /> 
       <div className="home-box"></div> 
       <div className="home--indexInner">
        <h1>Seaside Spanish Villa</h1>

@@ -232,55 +232,55 @@
 "cover":[
  {
  "id":1,
- "src":"/img/backyard1.webp",
+ "src":"./img/backyard1.webp",
  "title":"Kichen Room"
 
  },
  {
  "id":2,
- "src":"/img/bedroom1.webp",
+ "src":"./img/bedroom1.webp",
  "title":"Bed Room 1"
  
  },
  {
  "id":3,
- "src":"/img/bedroom2-2.webp",
+ "src":"./img/bedroom2-2.webp",
  "title":"Bed Room 2"
 
  },
  {
  "id":4,
- "src":"/img/livingroom1.webp",
+ "src":"./img/livingroom1.webp",
  "title":"Living Room"
 
  },
   {
  "id":5,
- "src":"/img/exterior5.webp",
+ "src":"./img/exterior5.webp",
  "title":"Exteriors"
 
  },
   {
  "id":6,
- "src":"/img/backyard2.webp",
+ "src":"./img/backyard2.webp",
  "title":"Backyard"
 
  },
    {
  "id":7,
- "src":"/img/addition_photos2.webp",
+ "src":"./img/addition_photos2.webp",
  "title":"Addtions"
 
  },
   {
  "id":8,
- "src":"/img/dingroom1.webp",
+ "src":"./img/dingroom1.webp",
  "title":"Dining Room"
 
  },
  {
  "id":9,
- "src":"/img/exterior4.webp",
+ "src":"./img/exterior4.webp",
  "title":"Pool"
 
  }
