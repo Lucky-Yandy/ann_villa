@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/ann_villa/static/css/main.1cd99bdc.css",
-    "main.js": "/ann_villa/static/js/main.17dc9137.js",
-    "index.html": "/ann_villa/index.html",
-    "main.1cd99bdc.css.map": "/ann_villa/static/css/main.1cd99bdc.css.map",
-    "main.17dc9137.js.map": "/ann_villa/static/js/main.17dc9137.js.map"
+    "main.css": "/static/css/main.6ac97838.css",
+    "main.js": "/static/js/main.581bd4c3.js",
+    "index.html": "/index.html",
+    "main.6ac97838.css.map": "/static/css/main.6ac97838.css.map",
+    "main.581bd4c3.js.map": "/static/js/main.581bd4c3.js.map"
   },
   "entrypoints": [
-    "static/css/main.1cd99bdc.css",
-    "static/js/main.17dc9137.js"
+    "static/css/main.6ac97838.css",
+    "static/js/main.581bd4c3.js"
   ]
 }
