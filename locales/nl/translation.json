@@ -1,0 +1,436 @@
+{
+"Home":"Home",
+"Booking":"Boeking",
+"Picture":"Afbeeldingen",
+"Location":"Omgeving",
+"Reviews":"Beoordelingen",
+"Contact":"Contact",
+"Info":"Informatie",
+"Price":"Prijs",
+"VillaName":"Villa met uitzicht op de bergen dichtbij zee",
+"ShowMorePhotos": "Meer foto's weergeven",
+"ItemsOnTop":[
+ {
+  "id":1,
+ "title":"6 Volwassenen",
+ "src":"../icons/people.png"
+ },
+ {
+  "id":2,
+ "title":"3 Slaapkamers",
+ "src":"../icons/twoPersonbed.png"
+ },
+  {
+  "id":3,
+ "title":"2 Badkamers",
+ "src":"../icons/shower.png"
+ },
+  {
+  "id":4,
+ "title":"Tuin 3200M²",
+ "src":"../icons/Garden.png"
+ },
+  {
+  "id":5,
+ "title":"Villa",
+ "src":"../icons/villa.png"
+ },
+  {
+  "id":6,
+ "title":"Privé zwembad",
+ "src":"../icons/swimming-pool.png"
+ } 
+ ],
+ "hostname":"Georganiseerd door Annabel en Marco",
+ "content": {
+      "paragraph1": "Met trots bieden wij u onze vakantie villa aan met privézwembad (9x5meter).",
+      "paragraph2": "Liefhebbers van de natuur en voornamelijk de bergachtige heuvels zullen zich hier als een vis in het water voelen. Het strand ligt ook niet ver van je bed, daarnaast zijn de toeristische dorpjes met marktkramen en winkeltjes bereikbaar in de naast gelegen dorpjes. Alles voor ieder zijn wens, jong en oud. Centrum en strand zijn bereikbaar binnen 30 minuten van onze fantastische villa met zwembad. De luchthaven van Alicante ligt op 45 km van onze locatie. Luchthaven van Valencia 130 km (1,5uur rijden) en Madrid ligt op ongeveer 3 uur rijden.",
+      "paragraph3": "Onze villa heeft 2 badkamers en 3 slaapkamers waarvan 2 met een tweepersoonsbed en 1 met 2 aparte bedden. Alle slaapkamers zijn uitgerust met een airco. Verder is de woonkamer ruim en gezellig ingericht met een 6 persoons eettafel, een grote zitbank en een smart TV (met gratis gebruik van Netflix). Er is ook openhaard voor de koude avonden in het winter seizoen. De open keuken is voorzien van een kookeiland, alle inbouwapparatuur zoals een koelkast, vriezer, oven, magnetron, vaatwasser en zelfs een wijnkoeler staan tot uw beschikking.",
+      "paragraph4":"Kortom alle luxe en comfort is aanwezig voor een heerlijke onbezorgde tijd met een huiselijke sfeer. Aan het huis zit de veranda welke ook zeer ruim is. De veranda heeft een lange eettafel, een vaste BBQ en een heerlijke schaduwrijke zitplaats. Vanuit de veranda heb je uitzicht op de bergen en naar het zwembad. De toegang van het zwembad is afgeschermd met een hek/poort voor de veiligheid van uw kinderen. Een kinderbedje/kinderstoel zijn ook aanwezig en zijn gratis beschikbaar op aanvraag. Alle beddengoed, handdoeken en strandlakens, evenals een welkomstpakket zijn inbegrepen in de standaardservice die wij aanbieden.",
+       "paragraph5":"Onze villa is een perfect verblijf voor families en vrienden tot 6 volwassenen."
+    },
+ "ShowMoreButton":"Laat meer zien",   
+ "ShowLessButton":"Laat minder zien",
+ "Whereyoullsleep":"Waar je slaapt",
+ "bedroom1":"Slaapkamer 1",
+ "bedroom2":"Slaapkamer 2",
+ "bedroom3":"Slaapkamer 3",
+ "firstQueenBed":"1 Queensize bed",
+ "singleBeds":"2 Aparte bedden",
+ "secondQueenBed":"1 Queensize bed",
+ "whatitoffers":"Wat wij te bieden hebben",
+ "items": [
+  {
+    "id": 1,
+    "title": "Airconditioning",
+    "src": "../icons/air.png"
+  },
+  {
+    "id": 2,
+    "title": "Privé zwembad",
+    "src": "../icons/swimming-poolF.png"
+  },
+  {
+    "id": 3,
+    "title": "BBQ",
+    "src": "../icons/barbecue.png"
+  },
+  {
+    "id": 4,
+    "title": "Netflix",
+    "src": "../icons/netflix.png"
+  },
+  {
+    "id": 5,
+    "title": "TV",
+    "src": "../icons/watch-tv.png"
+  },
+  {
+    "id": 6,
+    "title": "Koffiezetapparaat",
+    "src": "../icons/coffee-machine.png"
+  },
+ 
+   {
+    "id": 7,
+    "title": "Vaatwasser",
+    "src": "../icons/dishwasher.png"
+  },
+   {
+    "id": 8,
+    "title": "Droger",
+    "src": "../icons/tumble-dry.png"
+  },
+  {
+    "id": 9,
+    "title": "Waterkoker",
+    "src": "../icons/electric-kettle.png"
+  },
+  {
+    "id": 10,
+    "title": "Oven",
+    "src": "../icons/oven.png"
+  },
+  {
+    "id": 11,
+    "title": "Wasmachine",
+    "src": "../icons/washing-machine.png"
+  },
+  {
+    "id": 12,
+    "title": "Broodrooster",
+    "src": "../icons/toaster.png"
+  },
+  {
+    "id": 13,
+    "title": "Koelkast",
+    "src": "../icons/refridge.png"
+  },
+  {
+    "id": 14,
+    "title": "Vriezer",
+    "src": "../icons/freezer.png"
+  },
+  {
+    "id": 15,
+    "title": "Magnetron",
+    "src": "../icons/microwave-oven.png"
+  },
+  {
+    "id": 16,
+    "title": "Wijnkoelkast",
+    "src": "../icons/fridge.png"
+  },
+  {
+    "id": 17,
+    "title": "Kookeiland",
+    "src": "../icons/cooking.png"
+  },
+  {
+    "id": 18,
+    "title": "Douche",
+    "src": "../icons/shower.png"
+  },
+  {
+    "id": 19,
+    "title": "Warm water",
+    "src": "../icons/hot-water.png"
+  },
+  {
+    "id": 20,
+    "title": "Bank",
+    "src": "../icons/sofa.png"
+  },
+  {
+    "id": 21,
+    "title": "Kast",
+    "src": "../icons/wardrobe.png"
+  },
+  {
+    "id": 22,
+    "title": "Bidet",
+    "src": "../icons/bidet.png"
+  },
+  {
+    "id": 23,
+    "title": "Haardroger",
+    "src": "../icons/hairdryer.png"
+  },
+  {
+    "id": 24,
+    "title": "Beddengoed",
+    "src": "../icons/blanket.png"
+  },
+  {
+    "id": 25,
+    "title": "Toilet",
+    "src": "../icons/sanitary.png"
+  },
+  {
+    "id": 26,
+    "title": "Strijkijzer",
+    "src": "../icons/iron.png"
+  },
+  {
+    "id": 27,
+    "title": "Openhaard",
+    "src": "../icons/fireplace.png"
+  },
+  {
+    "id": 28,
+    "title": "Eettafel",
+    "src": "../icons/chair.png"
+  },
+  {
+    "id": 29,
+    "title": "Kledinghangers",
+    "src": "../icons/hanger.png"
+  },
+  {
+    "id": 30,
+    "title": "Pelletkachel",
+    "src": "../icons/pellet-stove.png"
+  },
+  {
+    "id": 31,
+    "title": "Kookbenodigdheden",
+    "src": "../icons/kitchen.png"
+  },
+  {
+    "id": 32,
+    "title": "Servies en bestek",
+    "src": "../icons/plate.png"
+  },
+  {
+    "id": 33,
+    "title": "Wifi",
+    "src": "../icons/wifi.png"
+  },
+  {
+    "id": 34,
+    "title": "Kinderservies",
+    "src": "../icons/baby-cutlery.png"
+  },
+  {
+    "id": 35,
+    "title": "Reisbedje",
+    "src": "../icons/cot.png"
+  },
+  {
+    "id": 36,
+    "title": "Kinderboeken en speelgoed",
+    "src": "../icons/rocking-horse.png"
+  },
+  {
+    "id": 37,
+    "title": "Kinderstoel",
+    "src": "../icons/highchair.png"
+  },
+  {
+    "id": 38,
+    "title": "Bordspellen",
+    "src": "../icons/board-game.png"
+  },
+  {
+    "id": 39,
+    "title": "Plezier voor kinderen",
+    "src": "../icons/funForChild.png"
+  },
+  {
+    "id": 40,
+    "title": "Strandstoelen",
+    "src": "../icons/sun-umbrella.png"
+  },
+  {
+    "id": 41,
+    "title": "Rookalarm",
+    "src": "../icons/fire-sensor.png"
+  },
+  {
+    "id": 42,
+    "title": "Buiten",
+    "src": "../icons/outdoors.png"
+  },
+  {
+    "id": 43,
+    "title": "Buitendouche",
+    "src": "../icons/outdoorshower.png"
+  },
+  {
+    "id": 44,
+    "title": "Tuin",
+    "src": "../icons/Garden.png"
+  },
+  {
+    "id": 45,
+    "title": "Buiten eethoek",
+    "src": "../icons/terrace.png"
+  },
+  {
+    "id": 46,
+    "title": "EHBO-kit",
+    "src": "../icons/first-aid-kit.png"
+  },
+  {
+    "id": 47,
+    "title": "Brandblusser",
+    "src": "../icons/fire-extinguisher.png"
+  },
+  {
+    "id": 48,
+    "title": "Gratis parkeren",
+    "src": "../icons/free-parking.png"
+  },
+  {
+    "id": 49,
+    "title": "Beveiligingscamera",
+    "src": "../icons/security-camera.png"
+  },
+  {
+    "id": 50,
+    "title": "Sleutelbox",
+    "src": "../icons/key.png"
+  },
+ {
+ "id":51,
+ "title":"Prive tuin, volledig afgeschermd",
+ "src":"../icons/Garden.png"
+ 
+ },
+  {
+ "id":52,
+ "title":"Lang verblijf toegestaan",
+ "src":"../icons/calendar (1).png"
+ },  
+ {
+ "id":53,
+ "title":"Welkomst pakket",
+"src":"../icons/welcome.png" 
+ },
+ {
+ "id":54,
+ "title":"Huisdieren toegestaan(Op aanvraag)",
+ "src":"../icons/pawprint.png" 
+ }
+],
+"notes":"Boekings informatie:",
+"line1notes":" Uw reservering wordt binnen 48 uur bevestigd.",
+"line2notes":" Een borgsom van € 200,00 wordt binnen 3 dagen na het uitchecken gerestitueerd,", 
+"clickhere":"klik hier", 
+"line3notes":"voor meer informatie en ons boekingsbeleid.",
+"line4notes":"De minimale boekingsperiode is 5 dagen, neem contact met ons op als u minder dan 5 dagen wilt boeken voor eventuele mogelijkheden. Als u langer dan 3 weken wilt boeken, neem dan contact met ons op voor eventuele betere tarieven.",
+"checkin": "Inchecken",
+"checkout": "Uitchecken",
+"checkinTime": "Na 15:00",
+"checkoutTime": "Voor 10:00",
+"night":"nacht",
+"nights":"nachten",
+"adult":"Volwassen",
+"adults":"Volwassenen",         
+"adultplusS":"en",
+"children":"Kinderen",
+"childrenage":"Kinderen (2-12 jaar oud)",
+"baby":"Baby",
+"babies":"Babies",
+"babiesage":"Baby's (Jonger dan 2 jaar)",
+"fullname":"Voor-en achternaam",
+"email":"E-mail",
+"phoneNum":"Telefoonnummer",
+"closebutton":"Sluiten",
+"reserve":" Reserveren",
+"wontbecharged":"Er worden nog geen kosten in rekening gebracht",
+"deposit":"Borg",
+"cleaningfee":"Schoonmaakkosten",
+"total":"Totaal",
+"locationInfo":"De villa ligt in de kleine, gezellige stad Sax met ongeveer 10.000 inwoners en heeft alles wat je nodig hebt. Leuke lokale restaurants en bars voor een lekker hapje of een drankje. De omgeving is geweldig en staat bekend om de wandel-, fiets- en motorroutes. Het centrum en strand van Alicante ligt op slechts 25 minuten rijden met de auto, Benidorm op minder dan een uur en Valencia op ongeveer 1,5 uur. Andere steden zoals Novelda, Aspe, Elx en Vilena liggen allemaal binnen 10 tot 15 minuten rijden. U kunt hieronder op een aantal links klikken om enkele aanbevelingen te bekijken wat er in de buurt te vinden of te doen is.",
+"locationNote":"De exacte locatie wordt na boeking bekend gemaakt",
+"showmorereviews":"Toon meer beoordelingen",
+"showlessreviews":"Toon minder beoordelingen",
+"leaveAcomment":"Laat een reactie achter",
+"yourname":"Uw naam",
+"yourcomment":"Jouw commentaar",
+"enteryourname":"Vul uw naam in",
+"writeyourcomment":"Schrijf uw commentaar",
+"reviewSuccesspopup":"Bedankt dat u de tijd heeft genomen om uw mening te delen! Uw mening is belangrijk voor ons.",
+"contactme":"Neem Contact Met Mij Op",
+"firstname":"Voornaam",
+"lastname":"Achternaam",
+"message":"Bericht",
+"enterfirstname":"Vul uw voornaam in",
+"enterlastname":"Voer uw achternaam in",
+"enteremail":"Vul uw e-mailadres in",
+"enterphonenum":"Vul uw telefoonnummer in",
+"entermessage":"Vul uw bericht in",
+"submit":"Indienen",
+"contactSuccesspopup":"Bedankt dat u contact met ons opneemt! Wij hebben uw bericht ontvangen en nemen zo snel mogelijk contact met u op.",
+"bookingsubpop1":"Succesvol ingedient!",
+"bookingsubpop2":"Hartelijk dank voor uw reservering en uw vertrouwen in ons. Bekijk hieronder uw reserveringsgegevens, wij zullen uw reservering beoordelen en binnen 48 uur bij u terugkomen met een bevestiging van uw reservering. Mochten wij toch nog vragen hebben over uw reservering, dan krijgt u ook binnen 48 uur een e-mail van ons.",
+"orderdetails":"RESERVERINGSGEGEVENS:",
+"orderdetailsAdult":"Aantal volwassenen",
+"orderdetailsChildren":"Aantal kinderen (2-12 jaar)",
+"orderdetailsBaby":"Aantal baby’s (under 2 years old)",
+"orderdetailsFullName":"Voor-en achternaam",
+"orderdetailsPhone":"Telefoonnummer",
+"orderdetailsEmail":"Email",
+"orderdetailscheckin":"Inchecken datum",
+"orderdetailscheckout":"Uitchecken datum",
+"houserole1":"Bedankt dat u ervoor heeft gekozen om onze villa te boeken, wij heten u van harte welkom. We vragen even uw aandacht voor een aantal eenvoudige huisregels en ons boekingsbeleid nadat we uw reservering hebben bevestigd. Bij een reservering bent u zich bewust en gaat u akkoord met onderstaand boekingsbeleid en onze huisregels:",
+"houserole2":"Nadat wij uw boeking hebben bevestigd, ziet u op het overzicht van de totale kosten de standaard borg van € 200,00 staan. Dit is een borg, uiteraard wordt de borg na het uitchecken en controle door onze beheerder, door ons binnen drie dagen retour gestort op uw rekening, mits alles in orde is. De huurder blijft verantwoordelijk voor schade of ontbrekende spullen tijdens het verblijf, kleine accidentele schades zijn uitgesloten (bijvoorbeeld een stuk gevallen glas). Evenals voor de basisschoonmaak (bezemschoon).",
+"houserole3":"Betalingen:",
+"houserole4":"Na uw reservering vragen wij u om een aanbetaling te doen van 25% van het totale boekingsbedrag, de boeking dient ten minste 45 dagen (of minder bij lastminuteboekingen) vóór uw aankomst volledig te zijn betaald.",
+"houserole5":"Voor betalingen accepteren wij uitsluitend Ideal/bankoverschrijving/ bankbetaalverzoek. Wij accepteren (nog) geen creditcards en Paypal.",
+"houserole6":"Wanneer we uw boeking hebben bevestigd, geldt er een onderstaand annuleringsbeleid:",
+"houserole7":"U kunt uw boeking te allen tijde kosteloos annuleren binnen 48 uur na bevestiging.",
+"houserole8":"Annulering na 48 uur, maar de tijd tussen aankomst en annulering is langer dan 4 maanden is uw boeking nog kosteloos te annuleren.",
+"houserole9":"Bij annulering na 48 uur, maar de tijd tussen aankomst en annulering ligt tussen de 3 en 4 maanden, brengen wij 25% van de boekingskosten in rekening.",
+"houserole10":"Bij annulering na 48 uur, maar de tijd tussen aankomst en annulering ligt tussen de 60 en 90 dagen, brengen wij 50% van de boekingskosten in rekening.",
+"houserole11":"Bij annulering na 48 uur, maar de tijd tussen aankomst en annulering ligt tussen de 45 en 60 dagen, brengen wij 75% van de boekingskosten in rekening.",
+"houserole12":"Bij annulering na 48 uur, maar de tijd tussen aankomst en annulering minder dan 45 dagen bedraagt, brengen wij 100% van de reserveringskosten in rekening.",
+"houserole13":"Heeft u geannuleerd maar heeft u een andere persoon die graag in uw plaats komt, dan kunnen wij de boeking kosteloos voor u wijzigen naar de andere persoon, zolang deze uw volledige boeking overneemt. Wij restitueren geen bedragen bij een deels annulering.",
+"houserole14":"Huisregels:",
+"houserole15":"Houd er rekening mee dat het ten strengste verboden is om te allen tijde vuur te maken in, om en buiten het huis. Voor het gebruik van de open haard in het huis moet u altijd om toestemming vragen, aangezien dit niet het hele jaar door is toegestaan (alleen in het herfst- en winterseizoen is dit toegestaan). Houd er rekening mee dat dit verbod is opgelegd door de Spaanse autoriteiten. Barbecueën is alleen toegestaan op de daarvoor bestemde plaats, het gehele jaar door.",
+
+"houserole16":"Verlies van sleutels? Wij nemen geen risico en zullen de sloten van de woning vervangen, deze kosten a € 75,00 zullen bij u in rekening worden gebracht.",
+
+"houserole17":"Houd er rekening mee dat we beveiligingscamera's op het terrein hebben. De beveiligingscamera’s hangen op plaatsen die absoluut geen inbreuk maken op uw privacy. De camera’s zijn er alleen voor uw en onze veiligheid! Beveiligingscamera’s zijn alleen gericht op de toegangspoort . U kunt op ons terrein zorgeloos van uw privacy genieten!",
+"houserole18":"Gelieve niet te roken in het huis, dit is niet toegestaan.",
+"houserole19":"Huisdieren mogen in geen van de slaapkamers en mogen ook niet op de bank/stoelen.",
+"houserole20":"Laat het huis bij het uitchecken bezemschoon achter. Ons schoonmaakteam heeft namelijk een beperkte tijd om het huis weer schoon en klaar te maken.",
+"houserole21":"Inchecken is standaard na 15.00 uur en uitchecken voor 10.00 uur. Indien u vroeg wilt inchecken of laat wilt uitchecken, vraag ons dan naar de mogelijkheden. Wilt u alleen uw bagage afgeven, vraag ons dan ook naar de mogelijkheden.",
+"houserole22":"Wij wensen u een zeer aangenaam verblijf in onze villa, voor meer vragen kunt u contact met ons opnemen via",
+"houserole23":" info@villaspain.nl",
+"phototour":"Foto Tour",
+"photonav1":"Voortuin",
+"photonav2":"Tuin",
+"photonav3":"Veranda & BBQ",
+"photonav4":"Zwembad",
+"photonav5":"Slaapkamer Ensuite 1",
+"photonav6":"Keuken",
+"photonav7":"Woonkamer",
+"photonav8":"Slaapkamer Ensuite 2",
+"photonav9":"Slaapkamer met twee aparte bedden",
+"photonav10":"Andere foto’s",
+"overlap":"De geselecteerde datums overlappen met uitgeschakelde datums! Selecteer alstublieft opnieuw uw datums.",
+"completeform":"Vul alstublieft alle verplichte velden in en zorg ervoor dat het datumbereik minstens 5 dagen is.",
+"Surroundings":"Omgeving"
+ }

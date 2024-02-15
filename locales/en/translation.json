@@ -1,0 +1,443 @@
+{
+"Home":"Home",
+"Booking":"Booking",
+"Picture":"Pictures",
+"Location":"Location",
+"Reviews":"Reviews",
+"Contact":"Contact",
+"Info":"Information",
+"Price":"Price",
+"VillaName":"Mountain view villa close to sea",
+"ShowMorePhotos": "Show More Photos",
+"ItemsOnTop":[
+ {
+  "id":1,
+ "title":"6 Adults",
+ "src":"../icons/people.png"
+ },
+ {
+  "id":2,
+ "title":"3 Bedrooms",
+ "src":"../icons/twoPersonbed.png"
+ },
+  {
+  "id":3,
+ "title":"2 Bathrooms",
+ "src":"../icons/shower.png"
+ },
+  {
+  "id":4,
+ "title":"Garden 3200M²",
+ "src":"../icons/Garden.png"
+ },
+  {
+  "id":5,
+ "title":"Villa",
+ "src":"../icons/villa.png"
+ },
+  {
+  "id":6,
+ "title":"Private Pool",
+ "src":"../icons/swimming-pool.png"
+ }
+ ],
+ "hostname":"Hosted by Annabel & Marco",
+ "content": {
+      "paragraph1": "We are very proud to offer our wonderful villa with a private pool for your holiday use.",
+      "paragraph2": "If you are seeking a huge private space with mountain views set in a small city nearby the sea and close to tourist places, our villa is an absolute must try. Airport Alicante is 30km away and the center of Alicante is roughly a 30 min drive. The closest city centre from the villa is 5 km away, with shops, bars, restaurants, supermarkets etc. Valencia is 130 km away and Madrid is about  3 hours drive.",
+      "paragraph3": "Our villa features: multiple terraces, spacious gardens with a total private space of 3200m2. A private 9m x 5m meter outdoor pool with a fountain and an outdoor shower at the pool. We have 3 bedrooms and 2 bathrooms, a spacious cozy living room with a smart TV and free use of Netflix. All bed-rooms are equipped with an air conditioner. The living room has a 6-person dining table and a large sofa to relax on. The open kitchen has a cooking island and is equipped with a refrigerator, freezer, induction cooker, oven, microwave, dishwasher and even a wine cooler for the wine lovers. An extra refrigerator is located at the entry of the house as well as a laundry machine and a dryer are available for your use.",
+      "paragraph4":"Our villa is fully modernized yet cozy to make your stay feel relaxed and comfortable. The veranda at the house is equipped with a big long dining table, a fixed BBQ and a shady seating area with mountain views and the pool in sight. The entrance of the pool is protected by a fence/gate for the safety of your children. Baby bed (crib) and baby chair etc. are of course available free of charge on request. All bed linens, towels and beach towels as well as a welcome package are included in the standard service we offer.",
+       "paragraph5":"This villa is a perfect place to stay for families and friends up to 6 adults."
+    },
+ "ShowMoreButton":"Show More",      
+ "ShowLessButton":"Show Less",
+ "Whereyoullsleep":"Where you'll sleep",
+ "bedroom1":"Bedroom 1",
+ "bedroom2":"Bedroom 2",
+ "bedroom3":"Bedroom 3",
+ "firstQueenBed":"1 Queen bed",
+ "singleBeds":"2 Single beds",
+ "secondQueenBed":"1 Queen bed",
+ "whatitoffers":"What this place offer",
+ "items":[
+ {
+ "id":1,
+ "title":"Air conditioner",
+ "src":" ../icons/air.png"
+ },
+ {
+ "id":2,
+ "title":"Private pool",
+ "src":"../icons/swimming-poolF.png"
+ },
+ {
+ "id":3,
+ "title":"BBQ",
+ "src":"../icons/barbecue.png"
+ },
+{
+ "id":4,
+ "title":"Netflix",
+ "src":"../icons/netflix.png"
+ },
+  {
+ "id":5,
+ "title":"TV",
+"src":"../icons/watch-tv.png"
+ },
+ {
+ "id":6,
+ "title":"Coffee machine",
+  "src":"../icons/coffee-machine.png"
+ },
+  {
+ "id":7,
+ "title":"Dishwasher",
+ "src":"../icons/dishwasher.png"
+ },
+  {
+ "id":8,
+ "title":"Dryer",
+ "src":"../icons/tumble-dry.png"
+ },
+ {
+ "id":9,
+ "title":"Electric kettle",
+ "src":"../icons/electric-kettle.png"
+ },
+ {
+ "id":10,
+ "title":"Oven",
+ "src":"../icons/oven.png"
+ },
+ {
+ "id":11,
+ "title":"Washing machine",
+ "src":"../icons/washing-machine.png"
+ },
+ {
+ "id":12,
+ "title":"Toaster",
+ "src":"../icons/toaster.png"
+ },
+  {
+ "id":13,
+ "title":"Refrigerator",
+ "src":"../icons/refridge.png"
+ },
+  {
+ "id":14,
+ "title":"Freezer",
+ "src":"../icons/freezer.png"
+ },
+ {
+ "id":15,
+ "title":"Microwave",
+ "src":"../icons/microwave-oven.png"
+ },
+ {
+ "id":16,
+ "title":"Wine fridge",
+ "src":"../icons/fridge.png"
+ },
+ {
+ "id":17,
+ "title":"Cooking island",
+"src":"../icons/cooking.png"
+ },
+  {
+ "id":18,
+ "title":"Shower",
+"src":"../icons/shower.png"
+ },
+  {
+ "id":19,
+ 
+ "title":"Hot water",
+ "src":"../icons/hot-water.png"
+ },
+  {
+ "id":20,
+ "title":"Sofa",
+ "src":"../icons/sofa.png"
+ },
+  {
+ "id":21,
+ "title":"Closet",
+ "src":"../icons/wardrobe.png"
+ },
+ {
+ "id":22,
+ "title":"Bidet",
+ "src":"../icons/bidet.png"
+ },
+ {
+ "id":23,
+ "title":"Hair dryer",
+ "src":"../icons/hairdryer.png"
+ },
+ {
+ "id":24,
+ "title":"Bed linens",
+ "src":"../icons/blanket.png"
+ },
+  {
+ "id":25,
+ "title":"Toilet",
+ "src":"../icons/sanitary.png"
+ },
+  {
+ "id":26,
+ "title":"Iron",
+ "src":"../icons/iron.png" 
+ },
+ {
+ "id":27,
+ "title":"Indoor fireplace",
+ "src":"../icons/fireplace.png"
+ }, 
+ {
+ "id":28,
+ "title":"Dining table",
+ "src":"../icons/chair.png"
+ },
+  {
+ "id":29, 
+ "title":"Hangers",
+ "src":"../icons/hanger.png"
+ },
+ {
+ "id":30,
+ "title":"Pellet heater",
+ "src":"../icons/pellet-stove.png"
+ },
+  {
+ "id":31,
+ "title":"Cooking basics",
+ "src":"../icons/kitchen.png"
+ },
+ {
+ "id":32,
+ "title":"Dishes and silverware",
+ "src":"../icons/plate.png"
+ },
+  {
+ "id":33,
+ "title":"Wifi",
+ "src":"../icons/wifi.png"
+ },
+  {
+ "id":34, 
+ "title":"Children's dinnerware",
+ "src":"../icons/baby-cutlery.png"
+ },
+ {
+ "id":35, 
+ "title":"Travel crib",
+ "src":"../icons/cot.png"
+ },
+ {
+ "id":36,
+ "title":"Children's books and toys",
+ "src":"../icons/rocking-horse.png"
+ },
+ {
+ "id":37,
+ "title":"Baby chair",
+ "src":"../icons/highchair.png"
+ },
+  {
+ "id":38,
+ "title":"Board games",
+ "src":"../icons/board-game.png"
+ },  
+ {
+ "id":39,
+ "title":"Fun for child",
+ "src":"../icons/funForChild.png" 
+ },
+ {
+ "id":40,
+ "title":"Sun loungers",
+ "src":"../icons/sun-umbrella.png"
+ 
+ },
+  {
+ "id":41,
+ "title":"Smoke alarm",
+ "src":"../icons/fire-sensor.png"
+ },
+  {
+ "id":42,
+ "title":"Outdoors",
+ "src":"../icons/outdoors.png" 
+ },
+  {
+ "id":43,
+ "title":"Outdoor shower",
+ "src":"../icons/outdoorshower.png"
+ },
+ {
+ "id":44,
+ "title":"Garden",
+ "src":"../icons/Garden.png"
+ 
+ }, 
+ {
+ "id":45,
+ "title":"Outdoor dining area",
+ "src":"../icons/terrace.png"
+ },
+ {
+ "id":46, 
+ "title":"First aid kit",
+ "src":"../icons/first-aid-kit.png"
+ },
+ {
+ "id":47,
+ "title":"Fire extinguisher",
+ "src":"../icons/fire-extinguisher.png"
+ },
+  {
+ "id":48,
+ "title":"Free parking",
+ "src":"../icons/free-parking.png"
+ },
+ 
+ {
+ "id":49,
+ "title":"Security camera",
+ "src":"../icons/security-camera.png"
+ },
+  {
+ "id":50, 
+ "title":"Key box",
+ "src":"../icons/key.png"
+ },
+ {
+ "id":51,
+ "title":"Private backyard-Fully fenced",
+ "src":"../icons/Garden.png"
+ 
+ },
+  {
+ "id":52,
+ "title":"Long term stays allowed",
+ "src":"../icons/calendar (1).png"
+ },  
+ {
+ "id":53,
+ "title":"Welcome package",
+"src":"../icons/welcome.png" 
+ },
+ {
+ "id":54,
+ "title":"Pets allowed (Upon request)",
+ "src":"../icons/pawprint.png" 
+ }
+],
+"notes":"Booking information:",
+"line1notes":" Your reservation will be confirmed within 48 hours.",
+"line2notes":" A deposit of € 200,00 will be refunded within 3 days after check-out, please", 
+"clickhere":"click here", 
+"line3notes":"for details and our booking policy.",
+"line4notes":" The minimum booking days are 5 days, contact us if you wish to book less than 5 days. If you wish to book longer than 3 weeks, contact us to get better rates.",
+"checkin":"Check-in",
+"checkout":"Check-out",
+"checkinTime":"After 15:00",
+"checkoutTime":"Before 10:00",
+"night":"night",
+"nights":"nights",
+"adult":"Adult",
+"adults":"Adults",
+"adultplusS":"s",
+"children":"Children",
+"childrenage":"Children (2-12 years old)",
+"baby":"Baby",
+"babies":"Babies",
+"babiesage":"Babies (under 2 years old)",
+"fullname":"Full Name",
+"email":"Email",
+"phoneNum":"Phone Number",
+"closebutton":"Close",
+"reserve":" Reserve",
+"wontbecharged":"You won't be charged yet",
+"deposit":"Deposit",
+"cleaningfee":"Cleaning fee",
+"total":"Total",
+
+"locationInfo":"The villa is located in a small cozy city called Sax which has a population of roughly 10.000 people and has everything you need. Enjoy excellent local bars and restaurants or explore the amazing surroundings known for great hiking, cycling and motorbiking routes. Alicante is just a 25 minute drive away, Benidorm less than an hour. Other cities like Novelda, Aspe, Elx, Vilena are all within 10 to 15 minutes’ drive. You can click below on several links to check out some of our recommendations to enjoy amusement parks, nature, hiking, cycling, waterfalls, parks and good food.",
+"locationNote":"Exact location will be provided after booking",
+"showmorereviews":"Show More Reviews",
+"showlessreviews":"Show Less Reviews",
+"leaveAcomment":"Leave a Comment",
+"yourname":"Your name",
+"yourcomment":"Your comment",
+"enteryourname":"Enter your name",
+"writeyourcomment":"Write your comment",
+"reviewSuccesspopup":"Thank you for taking the time to share your thoughts! Your valuable opinion is important to us.",
+"contactme":"Contact Me",
+"firstname":"First Name",
+"lastname":"Last Name",
+"message":"Message",
+"enterfirstname":"Enter your first name",
+"enterlastname":"Enter your last name",
+"enteremail":"Enter your email",
+"enterphonenum":"Enter your phone number",
+"entermessage":"Enter your message",
+"submit":"Submit",
+"contactSuccesspopup":"Thank you for contacting us! We've received your message and will get back to you as soon as possible.",
+"bookingsubpop1":"Submit successfully!",
+"bookingsubpop2":"Thank you very much for your reservation and your trust in us. Please see your reservation details below, we will review and confirm your booking within 48 hours. If we still have any questions about your booking, you will also get an email from us within 48 hours.",
+"orderdetails":"ORDER DETAILS:",
+"orderdetailsAdult":"Number of Adults",
+"orderdetailsChildren":"Number of Children (2-12 years old)",
+"orderdetailsBaby":"Number of babies",
+"orderdetailsFullName":"Full Name",
+"orderdetailsPhone":"Phone Number",
+"orderdetailsEmail":"Email",
+"orderdetailscheckin":"Check-in Date",
+"orderdetailscheckout":"Check-out Date",
+"houserole1":"Thank you for choosing to book our villa, we are looking forward to welcoming you. Please kindly read our booking terms and conditions as stated below. By proceeding your booking you accept the terms and conditions below.",
+"houserole2":"A standard deposit of €200,00 will be added to the total cost. If the property is left in satisfactory condition the deposit will be transferred back to the bank account used for payment in full within 3 days after check-out. We will not charge you for small accidental damage.",
+"houserole3":"Payments:",
+"houserole4":"After your reservation is confirmed we will ask you to pay a down payment for your reservation of 25% of the total booking amount only, your booking should be paid in full 45 days prior to your arrival. Or payment should be made within 72 hours for a last-minute booking made less than 45 days in advance.",
+"houserole5":"For payments we only accept Ideal/bank transfer/bank payment request. We currently do not accept credit cards and Paypal.",
+"houserole6":"When we have confirmed your booking, please note that the following cancellation policy will apply:",
+"houserole7":"You can cancel your booking free of charge within 48 hours after your booking has been confirmed.",
+"houserole8":"You can cancel your booking free of charge if the check-in date of your stay is a minimum of 4 months away.",
+"houserole9":"You will be charged 25% of the booking fee only if the booking is cancelled after 48 hours and the check-in date of your stay is between 3-4 months away.",
+"houserole10":"You will be charged 50% of the booking fee only if the booking is cancelled after 48 hours and the check-in date of your stay is between 2-3 months away.",
+"houserole11":"You will be charged 70% of the booking fee only if the booking is cancelled after 48 hours and the check-in date of your stay is between 45-60 days away.",
+"houserole12":"You will be charged 100% of the booking fee if the booking is cancelled after 48 hours and the check-in date of your stay is less than 45 days away.",
+"houserole13":"If you made a cancellation but you have another person that would like to go in your place, we can change the booking to the other person for you free of charge, as long as they take over your full booking/cancellation. Please note that we cannot refund a part of your booking if you shorten your stay.",
+
+"houserole14":"House rules:",
+
+"houserole15":"Please note it’s strictly prohibited to make any fire in or outside the house at all times by the Spanish Authorities. If you wish to make use of the fire place in the house always ask us for permission first since it’s not allowed during the whole year (only in autumn and winter season we allow this). A BBQ is allowed the whole year at the designated place only.",
+
+"houserole16":"Please be careful not to lose any keys. In the event that keys belonging to the property are lost we will charge you €75 as this will require the locks to be changed to ensure safety.",
+"houserole17":"Please be aware that we have security cameras located on-site (outside only). The cameras are there for your and our safety only! Cameras are pointed towards the entrance gate of the property and to the outside of the property only, there are no cameras pointed at areas where this might interfere with your privacy (eg. poolside and seating areas).",
+
+"houserole18":"Please don’t smoke in the house, it is not allowed.",
+
+"houserole19":"Please note that pets are not allowed in any of the bed-rooms or on the sofas or seats if we allow you to bring your pet(s).",
+"houserole20":"Please leave the house cleaned to a basic standard upon check-out. If the house is left in an unacceptable condition you may not be eligible to receive a full refund of your deposit.",
+"houserole21":"Standard check-in time after 15:00pm and check-out before 10:00am. If you wish to request early check-in or late check-out please contact us for possibilities. If you just wish to drop your luggage please also ask us.",
+"houserole22":"We wish you a very pleasant stay in our villa, for any more question please just contact us via",
+"houserole23":" info@villaspain.nl",
+"phototour":"Photo Tour",
+"photonav1":"Front Garden",
+"photonav2":"Side Garden",
+"photonav3":"Veranda & BBQ",
+"photonav4":"Pool",
+"photonav5":"Bedroom Ensuite 1",
+"photonav6":"Kitchen",
+"photonav7":"Living Room",
+"photonav8":"Bedroom Ensuite 2",
+"photonav9":"Two Single Beds Bedroom",
+"photonav10":"Others",
+"overlap":"The selected dates overlap with disabled dates! Please reselect your dates again.",
+"completeform":"Please fill in all required fields, and make sure the date range is at least 5 days.",
+"Surroundings":"Surroundings"
+}
