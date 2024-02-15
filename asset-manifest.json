@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.5cf975a2.css",
-    "main.js": "/static/js/main.7b371ee5.js",
-    "index.html": "/index.html",
-    "static/media/getFetch.cjs": "/static/media/getFetch.40f37ddea2378391108f.cjs",
-    "main.5cf975a2.css.map": "/static/css/main.5cf975a2.css.map",
-    "main.7b371ee5.js.map": "/static/js/main.7b371ee5.js.map"
+    "main.css": "/ann_villa/static/css/main.5cf975a2.css",
+    "main.js": "/ann_villa/static/js/main.b9c8b1eb.js",
+    "index.html": "/ann_villa/index.html",
+    "static/media/getFetch.cjs": "/ann_villa/static/media/getFetch.40f37ddea2378391108f.cjs",
+    "main.5cf975a2.css.map": "/ann_villa/static/css/main.5cf975a2.css.map",
+    "main.b9c8b1eb.js.map": "/ann_villa/static/js/main.b9c8b1eb.js.map"
   },
   "entrypoints": [
     "static/css/main.5cf975a2.css",
-    "static/js/main.7b371ee5.js"
+    "static/js/main.b9c8b1eb.js"
   ]
 }
