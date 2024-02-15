@@ -1,37 +1,52 @@
 
 import './App.css';
-import React from "react";
+import React, {useState}from "react";
 import {BrowserRouter as Router,Routes, Route } from "react-router-dom";
 import Navbar from "./Pages/Home/Navbar/Navbar.js";
 import Home from "./Pages/Home/HomeScreen";
 import Photos from "./Pages/PhotoTour/PhotoTour.js";
-/*"homepage":"https://lucky-yandy.github.io/ann_villa",
+import SHowHoseRole from "./Pages/Home/BookingSection/ShowHouseRoles.js";
+import i18n from './i18n';
+import {Suspense} from 'react';
+import LocaleContext from './LocaleContext';
 
-Email:
-info@vilaspain.nl
-Midaan2021!
+function Loading(){
+ return(<>Loading...</>)
 
-Host:
-Master-ID: 526648129.swh.strato-hosting.eu
-Webspace Pad: /mnt/rid/81/29/526648129/htdocs/
+}
 
 
-   */
-  
+
 function App() {
+  const[locale, setLocale]=useState(i18n.language);
+  
+  i18n.on('languageChanged', (lng) => setLocale(i18n.language));
+
+
+  const handleLanguage =(event)=>{
+    console.log('Changing language to:', event.target.value);
+    i18n.changeLanguage(event.target.value);//nl or
+  }
+  
+
   return (
-    <div className="App">
-      <Router basename="/ann_villa/">
-       <div> 
-       <Navbar />
+ <div className="App">
+  <LocaleContext.Provider value={{ locale, setLocale }}>
+        <Suspense fallback={<Loading />}>
+         <Router>
+        <div> 
+          <Navbar handleLanguage={handleLanguage} locale={locale} setLocale={setLocale} /> 
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route exact strict path="/photos" element={<Photos />} />
+            <Route exact strict path="/houseRoles" element={<SHowHoseRole />} />
+          </Routes> 
        
-       <Routes>
-        <Route path="/" element={<Home />}></Route> 
-        <Route path="/photos" element={<Photos />}></Route>
-       </Routes> 
-      </div>  
-      </Router>
-    </div>
+      </div>
+    </Router>
+   </Suspense>
+  </LocaleContext.Provider>
+</div>
   );
 }
 

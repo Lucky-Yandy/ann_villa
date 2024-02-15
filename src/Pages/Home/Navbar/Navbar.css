@@ -1,13 +1,12 @@
 .navbar {
-  position: flex; 
+
   display: flex;
   z-index:3;
   justify-content: space-between;
-  
   align-items: center;
   padding: 15px 85.333px;
   background: var(--white);
-  box-shadow: 0px 5.333px 80px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 5.333px 80px 0 rgba(0, 0, 0, 0.15);
   position: fixed;
   top: 0;
   left: 0;
@@ -22,8 +21,8 @@
   
 }
 .ann_house_icon-container > img{
-  width: 100px; 
-  height: 100px;
+  width: 50px; 
+  height: 50px;
 }
 
 .navbar--items > ul {
@@ -32,6 +31,7 @@
   align-items: flex-start;
   gap: 42.667px;
   text-decoration: none;
+  
 }
 .navbar--items ul > li > a {
   text-decoration: none;
@@ -39,31 +39,49 @@
 
 .navbar--content {
   color: var(--darkblue);
-  font-size: 16px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
   cursor: pointer;
 }
-.navbar--active--content {
-  font-weight:600;
-  color: var(--primary);
+.navbar--active-content {
+  
+  color: #FF5A5F;
+  
+  
 }
-.navbar--content:hover{
- font-size:20px;
- color:darkgreen;
- text-decoration: underline;
+
+
+
+
+.navbutton{
+
+ padding:10px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+  max-height: 1.513rem;
+}
+
+.navbutton:hover{
+  background-color:rgb(239, 242, 247);
+ border-radius:50px;
 }
 
 .nav__hamburger {
   display: none;
   width: 2.075rem;
-  height: 1.313rem;
+  height: 1.213rem;
   flex-direction: column;
   justify-content: space-around;
   position: absolute;
   top: 25px;
   right: 35px;
+  
+}
+.nav__hamburger:hover {
+   background-color:rgb(239, 242, 247);
 }
 
 .nav__hamburger__line {
@@ -74,9 +92,25 @@
   border-radius: 0.625rem;
   transition: all ease-in-out 0.2s;
 }
+.languageChangeIcon{
+  max-width:25px;
+  max-height:25px;
+ 
+ 
+}
+
 
 @media only screen and (max-width: 1200px) {
-
+ 
+.navbutton{
+margin-right:45px;
+  max-height: 1.513rem;
+ padding:8px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ 
+}
 
   .btn-outline-primary {
     display: none;
@@ -101,7 +135,9 @@
     display: flex;
     z-index: 200;
     right:85.333px;
-    top:36px;
+    height:25px;
+    width:32px;
+    top:38px;
   }
   .navbar--items {
     display: flex;
@@ -138,7 +174,7 @@
     top: 30px;
   }
   .nav__hamburger.active :nth-child(1) {
-    transform: rotate(45deg) translate(0.45rem, 0.1875rem);
+    transform: rotate(45deg) translate(0.46rem, 0.1875rem);
   }
 
   .nav__hamburger.active :nth-child(2) {
@@ -146,10 +182,11 @@
   }
 
   .nav__hamburger.active :nth-child(3) {
-    transform: rotate(-45deg) translate(0.45rem, -0.1875rem);
+    transform: rotate(-45deg) translate(0.46rem, -0.1875rem);
   }
 }
 @media only screen and (max-width: 1024px) {
+ 
 .navbar{
   padding-left:15px;
 
@@ -158,26 +195,36 @@
     display: flex;
     z-index: 200;
     right:15px;
+    top:32px;
     
   }
 .ann_house_icon-container{
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 70px; 
-  height: 70px;
+  width: 60px; 
+  height: 60px;
   
 }
 .ann_house_icon-container > img{
-  max-width: 70px; 
-  max-height: 70px;
+  max-width: 60px; 
+  max-height: 60px;
   
+}
+.navbutton{
+margin-right:-25px;
+margin-top:-13px;
 }
 }
 
 
 @media only screen and (max-width: 760px) {
-
+.nav__hamburger {
+   
+    right:15px;
+    top:33px;
+    
+  }
 .ann_house_icon-container{
   display: flex;
   justify-content: center;
@@ -187,16 +234,70 @@
   
 }
 .ann_house_icon-container img{
-  max-width: 60px; 
-  max-height: 60px;
+  max-width: 40px; 
+  max-height: 40px;
+  margin-left: -20px;
+
   
 }
+.navbutton{
+margin-right:-25px;
+margin-top:-10px;
+}
 }
 
+@media only screen and (max-width: 300px) {
+=
+.navbar{
+  padding-left:15px;
 
+}
+   .languageAndContact{
+   margin-right:-25px;
+  }
 
+  .btn-outline-primary {
+    display: none;
+  }
 
+.ann_house_icon-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 30px; 
+  max-height: 30px;
+ 
+  
+}
+.ann_house_icon-container > img{
+  max-width: 30px; 
+  max-height: 30px;
+  margin-left:0px;
+ 
+}
 
+  .nav__hamburger {
+    display: flex;
+    z-index: 200;
+    right:15px;
+    top:17px;
+    height: 1.513rem;
+    
+    
+  }
+
+ .navbutton{
+margin-right:-25px;
+margin-top:-5px;
+}
+ 
+
+ .languageAndContact{
+   margin-right:-30px;
+  }
+ 
+
+}
 
 
 

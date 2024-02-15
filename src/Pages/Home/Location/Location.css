@@ -1,10 +1,19 @@
 .locationSection{
   display: flex;
-  padding: 20.333px 85.333px;
+  padding: 10.333px 85.333px;
   flex-direction:column;
   padding-bottom:0;
-  }  
+  gap:10px;
+  height:100%;
  
+  }  
+ .mapdisplay{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  flex-wrap:wrap;
+ 
+ }
   
   .locationImgSize{
    width:100%;
@@ -18,13 +27,26 @@
   border-radius: 8px;
  
 }
+.locationCaption {
+  position: absolute;
+  top: 43%; /* Adjust as needed */
+  left: 45%; /* Adjust as needed */
+  transform: translate(-50%, -50%);
+  color: black ;/* Adjust text color */
+  text-align: center;
+  border:1px solid lightgray;
+  padding:10px;
+  background-color:white;
+  border-radius: 10px;
+  /* Add any other styles you need for the overlay text */
+}
 
 .locaticonIcon{
 position:absolute;
- max-width:30px;
- max-height:30px;
- top:36%;
- left:43%;
+ max-width:50px;
+ max-height:50px;
+ top:49%;
+ left:44%;
  transition: transform 0.3s, width 0.3s, height 0.3s;
  
 }
@@ -33,43 +55,246 @@ position:absolute;
   max-width: 40px;
   max-height: 40px; 
 }
+.mapdisplay{
+display:flex;
+justify-content:center;
+align-items:flex-start;
+margin-top:20px;
+padding:10px;
+background:rgb(239, 242, 247);
+}
+.mapsize{
+width:800px;
+height:450px;
+
+}
+.linkslayout{
+
+line-height:40px;
+
+}
+.linkslayout a{
+color:MidnightBlue;
+}
 
 
+.googlemap{
+ position: relative;
+
+}
+.googlemap p{
+  position: absolute;
+  top: 35%; /* Position from the top edge */
+  left:25%;
+  background:white;
+  padding-left:5px;
+  padding-right:5px;
+  flex-wrap:wrap;
+  border-radius: 5px;
+}
+ @media only screen and (max-width: 1600px) {
+  .linkslayout{
+margin-top:0px;
 
 
+}
+ }
  @media only screen and (max-width: 1200px) {
 .locationSection{
   display: flex;
-  padding: 30.333px 15.333px;
+  padding: 30.333px 85.333px;
   flex-direction:column;
   padding-bottom:0;
   }  
+  .linkslayout{
+margin-top:0px;
+
+
+}
+ .locationCaption {
+  background-color:white;
+  top: 39%; 
+  padding:5px;
  
+}
 
 .locaticonIcon{
- top:35%;
- left:42%;
+ top:46%;
+ left:43%;
 
  
 }
  
  } 
  
- @media only screen and (max-width: 600px) {
- .locaticonIcon{
- top:30%;
- left:41%;
+  @media only screen and (max-width:1024px) {
+  .locationSection{
+  display: flex;
+  padding: 30.333px 15.333px;
+  flex-direction:column;
+  padding-bottom:0;
+  } 
+ 
+  }
+  @media only screen and (max-width: 900px) {
+ .locationCaption {
+  
+  top: 40%; 
+  padding:5px;
+ 
+}
+ 
 
+}
+@media only screen and (max-width: 800px) {
+ .locationCaption {
+  
+  top: 39%; 
+  padding:5px;
+  font-size:13px;
+ 
+}
+.mapsize{
+width:600px;
+height:450px;
+
+}
+}
+ @media only screen and (max-width: 600px) {
+ .locationSection{
+  
+  padding-top: 25.333px;
+  
+  }  
+  
+  .mapsize{
+width:450px;
+height:450px;
+
+}
+.linkslayout{
+
+line-height:30px;
+
+}
+.googlemap p{
+  position: absolute;
+  top: 33%; /* Position from the top edge */
+  left:10%;
+  background:white;
+  max-width:300px;
+  padding-left:5px;
+  padding-right:5px;
+  flex-wrap:wrap;
+  font-size:15px;
+}
+  .locationCaption {
+  top: 29%; 
+  padding:4px;
+  font-size:10px;
+  
+ 
+}
+ .locaticonIcon{
+ top:38%;
+ left:43%;
+  width:10px;
+  height:35px;
 }
  
  }
- 
- 
- @media only screen and (max-width: 400px) {
- .locaticonIcon{
- top:20%;
- left:39%;
+  @media only screen and (max-width: 500px) {
+ .locationSection{
+  
+  padding-top: 25px;
+  
+  }  
+  .mapsize{
+width:420px;
+height:300px;
 
 }
+.googlemap p{
+  position: absolute;
+  top: 27%; }
+  
+  .locationCaption {
+  top: 29%; 
+  
+   padding:3px;
+  font-size:10px;
  
+}
+ .locaticonIcon{
+ top:38%;
+ left:43%;
+  width:10px;
+  height:35px;
+}
+ .linkslayout{
+
+ margin-left:-20px;
+}
+ }
+ 
+ @media only screen and (max-width: 460px) {
+ .locaticonIcon{
+ top:38%;
+ left:41%;
+
+}
+.mapsize{
+width:350px;
+height:300px;
+
+}
+.locationCaption {
+  top: 29%; 
+  padding:0px 3px;
+  font-size:8px;
+  line-height:20px;
+  
+ 
+}
+.googlemap p{
+  top: 26%; /* Position from the top edge */
+  left:10%;
+  max-width:250px;
+  font-size:10px;
+}
+
+.linkslayout li{
+font-size:10px;
+line-height:20px;
+}
+ }
+ @media only screen and (max-width: 370px) {
+ .locaticonIcon{
+ top:40%;
+ left:35%;
+ width:20px;
+ height:20px;
+
+}
+.googlemap p{
+ 
+  top: 23%; /* Position from the top edge */
+  left:5%;
+ 
+  max-width:200px;
+  font-size:10px;
+}
+
+   .locationCaption {
+  top: 28%; 
+   padding:0px 3px;
+  font-size:8px;
+  line-height:15px;
+ 
+}
+.mapsize{
+width:280px;
+height:250px;
+
+}
  }

@@ -1,17 +1,15 @@
 import { Link } from "react-scroll";
 //import react from "react";
 import "./Footer.css";
+import { useTranslation} from 'react-i18next';
 function Footer() {
-  
- 
 
-
-
+  const {i18n,t} = useTranslation(); 
   return (
     <footer  className="footer--container">
       <div className="footer--link--container">
         <div className="ann_house_icon-container" >
-        <img src="./img/ann_house_icon2.png" alt="ann_house_icon" /> 
+        <img src="./img/ann_house_icon.png" alt="ann_house_icon" /> 
       </div>
         <div className="footer--items">
          <ul>
@@ -26,7 +24,7 @@ function Footer() {
               to="root"
               className="navbar--content"
             >
-              Home
+              {t('Home')}
             </Link>
           </li>
           <li>
@@ -40,7 +38,7 @@ function Footer() {
               to="info"
               className="navbar--content"
             >
-              Info
+               {t('Info')}
             </Link>
           </li>
           <li>
@@ -51,10 +49,10 @@ function Footer() {
               smooth={true}
               offset={-70}
               duration={500}
-              to="pic"
+              to="Pic"
               className="navbar--content"
             >
-              Pictures
+               {t('Picture')}
             </Link>
           </li>
          
@@ -69,7 +67,7 @@ function Footer() {
               to="booking"
               className="navbar--content"
             >
-             Price
+             {t('Price')}
             </Link>
           </li>
            <li>
@@ -80,25 +78,10 @@ function Footer() {
               smooth={true}
               offset={-70}
               duration={500}
-              to="booking"
+              to="Booking"
               className="navbar--content"
             >
-             Booking
-            </Link>
-          </li>
-          
-           <li>
-            <Link
-            
-              activeClass="navbar--active-content"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-              to="reviews"
-              className="navbar--content"
-            >
-             Reviews
+             {t('Booking')}
             </Link>
           </li>
            <li>
@@ -109,49 +92,39 @@ function Footer() {
               smooth={true}
               offset={-70}
               duration={500}
-              to="location"
+              to="Location"
               className="navbar--content"
             >
-             Location
+             {t('Location')}
             </Link>
           </li>
            <li>
             <Link
-              
+            
               activeClass="navbar--active-content"
               spy={true}
               smooth={true}
               offset={-70}
               duration={500}
-              to="contact"
+              to="Reviews"
               className="navbar--content"
             >
-             Contact
+             {t('Reviews')}
             </Link>
           </li>
+          
+         
+         
         </ul>
       </div>
-      <Link
-      
-        activeClass="navbar--active-content"
-        spy={true}
-        smooth={true}
-        offset={-70}
-        duration={500}
-        to="Contact"
-        className="btn btn-outline-primary"
-      >
-        Language
-      </Link>
-        </div>
         <div className="footer--social--icon">
           <ul>
             <li>
               <a
-                href="https://github.com/Lucky-Yandy"
+                href="https://www.instagram.com/villaspain.nl"
                 className="navbar--content"
                 
-              ><img src="./img/icons8-facebook-64.png" alt="img" className="footer--img" />
+              ><img src="./img/instagram.png" alt="img" className="footer--img" />
                
               </a>
             </li>
@@ -160,17 +133,20 @@ function Footer() {
                 href="www.linkedin.com/in/yanzhu-tech"
                 className="navbar--content"
               
-              ><img src="./img/icons8-instagram-64.png" alt="img" className="footer--img" />
+              ><img src="./img/facebook.png" alt="img" className="footer--img" />
                
               </a>
             </li>
            
           </ul>
         </div>
+       
+        </div>
+       
      
       <hr className="divider" />
       <div className="footer--content--container">
-        <p className="footer--content">Made with 💖 by Yan</p>
+        <p className="footer--content"></p>
         <div className="footer--social--icon">
           <ul>      
             <li>

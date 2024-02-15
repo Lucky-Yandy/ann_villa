@@ -1,0 +1,388 @@
+{
+ "items":[
+ {
+ "id":1,
+ "title":"Air conditioner",
+ "src":" ./icons/air.png"
+
+ },
+ {
+ "id":2,
+ "title":"Private pool",
+ "src":"./icons/swimming-poolF.png"
+ 
+ },
+ {
+ "id":3,
+ 
+ "title":"BBQ",
+ "src":"./icons/barbecue.png"
+ 
+ },
+{
+ "id":4,
+ 
+ "title":"Netflix",
+ "src":"./icons/netflix.png"
+ 
+ },
+  {
+ "id":5,
+ "title":"TV",
+"src":"./icons/watch-tv.png"
+ 
+ },
+ {
+ "id":6,
+ "title":"Coffee machine",
+  "src":"./icons/coffee-machine.png"
+ 
+ },
+  {
+ "id":7,
+ 
+ "title":"Dishwasher",
+ "src":"./icons/dishwasher.png"
+ 
+ },
+ {
+ "id":8,
+ "title":"Electric kettle",
+ "src":"./icons/electric-kettle.png"
+ 
+ },
+ {
+ "id":9,
+ "title":"Oven",
+ "src":"./icons/oven.png"
+ 
+ },
+ {
+ "id":10,
+ "title":"Washing machine",
+ "src":"./icons/washing-machine.png"
+ },
+ {
+ "id":11,
+ "title":"Toaster",
+ "src":"./icons/toaster.png"
+ 
+ },
+  {
+ "id":12,
+ 
+ "title":"Refrigerator",
+ "src":"./icons/refridge.png"
+ 
+ },
+  {
+ "id":13,
+ 
+ "title":"Freezer",
+ "src":"./icons/freezer.png"
+ 
+ },
+ {
+ "id":14,
+ 
+ "title":"Microwave",
+ "src":"./icons/microwave-oven.png"
+ 
+ },
+ 
+ {
+ "id":15,
+ 
+ "title":"Wine fridge",
+ "src":"./icons/fridge.png"
+ 
+ },
+ {
+ "id":16,
+ "title":"Cooking island",
+"src":"./icons/cooking.png"
+ 
+ },
+  {
+ "id":17,
+ "title":"Shower",
+"src":"./icons/shower.png"
+ 
+ },
+  {
+ "id":18,
+ 
+ "title":"Hot water",
+ "src":"./icons/hot-water.png"
+ 
+ },
+  {
+ "id":19,
+ 
+ "title":"Sofa",
+ "src":"./icons/sofa.png"
+ 
+ },
+ {
+ "id":20,
+ "title":"Bidet",
+ "src":"./icons/bidet.png"
+ 
+ },
+ {
+ "id":21,
+ "title":"Hair dryer",
+ "src":"./icons/hairdryer.png"
+ 
+ },
+ {
+ "id":22,
+ 
+ "title":"Bed linens",
+ "src":"./icons/blanket.png"
+ 
+ },
+  {
+ "id":23,
+ "title":"Toilet",
+ "src":"./icons/sanitary.png"
+ 
+ },
+  {
+ "id":24,
+ 
+ "title":"Iron",
+ "src":"./icons/iron.png"
+ 
+ },
+ {
+ "id":25,
+ 
+ "title":"Indoor fireplace",
+ "src":"./icons/fireplace.png"
+ 
+ },
+ 
+ 
+ {
+ "id":26,
+ 
+ "title":"Dining table",
+ "src":"./icons/chair.png"
+ 
+ },
+  {
+ "id":27,
+ 
+ "title":"Hangers",
+ "src":"./icons/hanger.png"
+ 
+ },
+ {
+ "id":28,
+ "title":"Pellet heater",
+ "src":"./icons/pellet-stove.png"
+ 
+ },
+ 
+  {
+ "id":29,
+ 
+ "title":"Cooking basics",
+ "src":"./icons/kitchen.png"
+ 
+ },
+ {
+ "id":30,
+ 
+ "title":"Dishes and silverware",
+ "src":"./icons/plate.png"
+ 
+ },
+  {
+ "id":31,
+ "title":"Wifi",
+ "src":"./icons/wifi.png"
+ 
+ },
+  {
+ "id":32,
+ 
+ "title":"Children's dinnerware",
+ "src":"./icons/baby-cutlery.png"
+ 
+ },
+ {
+ "id":33,
+ 
+ "title":"Travel crib",
+ "src":"./icons/cot.png"
+ 
+ },
+ {
+ "id":34,
+ 
+ "title":"Children's books and toys",
+ "src":"./icons/rocking-horse.png"
+ 
+ },
+ {
+ "id":35,
+ 
+ "title":"Baby chair",
+ "src":"./icons/highchair.png"
+ 
+ },
+  {
+ "id":36,
+ 
+ "title":"Board games",
+ "src":"./icons/board-game.png"
+ 
+ },
+ 
+ 
+ {
+ "id":37,
+ "title":"Fun for child",
+ "src":"./icons/funForChild.png"
+ 
+ },
+ {
+ "id":38,
+ "title":"Sun loungers",
+ "src":"./icons/sun-umbrella.png"
+ 
+ },
+  {
+ "id":39,
+ 
+ "title":"Smoke alarm",
+ "src":"./icons/fire-sensor.png"
+ 
+ },
+  {
+ "id":40,
+ "title":"Outdoors",
+ "src":"./icons/outdoors.png"
+ 
+ },
+  {
+ "id":41,
+ 
+ "title":"Outdoor shower",
+ "src":"./icons/outdoorshower.png"
+ 
+ },
+ {
+ "id":42,
+ "title":"Garden",
+ "src":"./icons/Garden.png"
+ 
+ },
+ 
+ {
+ "id":43,
+ "title":"Outdoor dining area",
+ "src":"./icons/terrace.png"
+ 
+ },
+ {
+ "id":44,
+ 
+ "title":"First aid kit",
+ "src":"./icons/first-aid-kit.png"
+ 
+ },
+ {
+ "id":45,
+ 
+ "title":"Fire extingguisher",
+ "src":"./icons/fire-extinguisher.png"
+ 
+ },
+  {
+ "id":46,
+ "title":"Free Parking",
+ "src":"./icons/free-parking.png"
+ },
+ 
+ {
+ "id":47,
+ "title":"Security camera",
+ "src":"./icons/security-camera.png"
+ 
+ },
+  {
+ "id":48,
+ 
+ "title":"Key Box",
+ "src":"./icons/key.png"
+ 
+ },
+ {
+ "id":49,
+ 
+ "title":"Private backyard-Fully fenced",
+ "src":"./icons/Garden.png"
+ 
+ },
+  {
+ "id":50,
+ "title":"Long term stays allowed",
+ "src":"./icons/calendar (1).png"
+ },
+ 
+ 
+ {
+ "id":51,
+ "title":"Welcome package",
+"src":"./icons/welcome.png"
+ 
+ },
+
+ {
+ "id":52,
+ 
+ "title":"Pets allowed(Upon request)",
+ "src":"./icons/pawprint.png"
+ 
+ }
+
+],
+ "itemsontop":[
+ {
+  "id":1,
+ "title":"6 Adults",
+ "src":"./icons/people.png"
+ },
+ {
+  "id":2,
+ "title":"3 Bedrooms",
+ "src":"./icons/twoPersonbed.png"
+ },
+  {
+  "id":3,
+ "title":"2 Bathrooms",
+ "src":"./icons/shower.png"
+ },
+  {
+  "id":4,
+ "title":"Garden 3200M²",
+ "src":"./icons/Garden.png"
+ },
+  {
+  "id":5,
+ "title":"Villa",
+ "src":"./icons/villa.png"
+ },
+  {
+  "id":6,
+ "title":"Private Pool",
+ "src":"./icons/swimming-pool.png"
+ }
+ 
+ 
+ ]
+
+}

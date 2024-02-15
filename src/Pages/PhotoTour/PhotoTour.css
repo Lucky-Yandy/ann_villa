@@ -1,13 +1,16 @@
 
 .photoTour{
-  position:absolute;
+  position:fixed;
   background-color:white;
   z-index:8; 
   right:0px; 
   left:0px;
- 
+  overflow-y: scroll;
+  max-height: 100vh;
+  scroll-behavior: smooth;
 
 }
+
 .photoTour > button{
 margin-top:30px;
 margin-left:40px;
@@ -24,12 +27,15 @@ margin-left:40px;
  .photoTourNav--links {
   position: relative;
   display: grid;
-  grid-template-columns: repeat(9, 1fr);
-  grid-template-rows: repeat(2, 100px);
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(2, 150px);
+  gap:30px;
  
-  grid-gap: 15px;
   height: 100%;
   width: 100%;
+  grid-column-gap: 5px;
+  grid-row-gap: 25px;
+ 
 }
 
 .photoTourNav--links button {
@@ -39,6 +45,7 @@ margin-left:40px;
   position: relative;
   border:none;
   background-color:white;
+   
 }
 
 .photoTourNav--links img {
@@ -59,6 +66,7 @@ margin-left:40px;
   font-style: normal;
   font-weight: 400;
   line-height: 21px;
+ 
 
 }
   
@@ -67,30 +75,93 @@ margin-left:40px;
  .photoSectionDisplay{
   display:grid;
   grid-template-columns:1fr 2fr;
-  gap:20px;
+  gap:15px;
   padding-top:133.333px;
  
  }
  
  .photoSectionDisplay--pic{
-   display: grid;
-  grid-template-columns: repeat(3, minmax(300px, 1fr));
-  gap: 10px;
- 
+   display: flex;
+   flex-wrap:wrap;
+   gap: 20px;
+  
+
  }
  .photoSectionDisplay--pic > div >img{
-  max-width: 100%; 
-  max-height: 100%; 
+ width: 500px; 
+  height: 400px; 
   object-fit: cover;
  }
   
+  .photoTourBackButton >img{
+   height:20px;
+  
+  }
+  /*/////////////*/
+  .image-gallery {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.gallery-content {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.close-button,
+.nav-buttonLeft,
+.nav-buttonRight {
+  position: absolute;
+  background: none;
+  border: none;
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+ 
+}
+
+.close-button {
+  top: 30px;
+  right: 30px;
+  
+  
+}
+
+.nav-buttonLeft {
+  left: 30px;
+  font-size: 32px;
+  z-index:10; 
+}
+
+.nav-buttonRight {
+  right: 30px;
+  font-size: 32px; 
+  z-index:10;
+}
+
+.gallery-content img {
+  max-width: 80%; /* Adjust as needed */
+  max-height: 100vh; /* Adjust as needed */
+  margin: 0 auto;
+  display: block;
+}
+
  @media only screen and (max-width: 1200px) {
  
   .photoTourNav--links {
   grid-template-columns: repeat(5,1fr);
-  grid-template-rows: repeat(2, 80px);
+  grid-template-rows: repeat(3, 100px);
   grid-column-gap: 19px;
-  grid-row-gap: 75px;
+  grid-row-gap: 40px;
   width:100%;
 }
 .photoSectionDisplay{
@@ -99,75 +170,135 @@ margin-left:40px;
   padding-top:133.333px;
  
  }
-
+.photoSectionDisplay--pic > div >img{
+ width: 800px; 
+  height: 400px; 
+  object-fit: cover;
+ }
 }
 @media only screen and (max-width: 1024px) {
  .photoTourNav--links {
   grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(2, 80px);
+  grid-template-rows: repeat(3, 80px);
   grid-column-gap: 15px;
-  grid-row-gap: 75px;
+  grid-row-gap: 55px;
 }
-
- .photoSectionDisplay--pic{
-   display: grid;
-  grid-template-columns: repeat(3, minmax(200px, 1fr));
-  gap: 10px;
- 
+.photoSectionDisplay--pic > div >img{
+  width: 600px; 
+  height: 400px; 
+  object-fit: cover;
  }
+ 
 }
 @media only screen and (max-width: 767px) {
 .photoTourNav--links {
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(3, 80px);
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 100px);
   grid-column-gap: 19px;
-  grid-row-gap: 75px;
+  grid-row-gap: 45px;
   width:100%;
 }
-
-.photoSectionDisplay--pic{
-   display: grid;
-  grid-template-columns: repeat(2, minmax(200px, 1fr));
-  grid-template-row:;
-  gap: 10px;
+.photoSectionDisplay--pic > div >img{
+  width: 500px; 
+  height: 400px; 
+  object-fit: cover;
+ }
+.photoSectionDisplay{
+  
+  padding-top:50.333px;
  
  }
 }
 @media only screen and (max-width: 568px) {
 .photoTourNav--links {
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 50px);
+  grid-template-rows: repeat(4, 100px);
   grid-column-gap: 19px;
-  grid-row-gap: 75px;
+  grid-row-gap: 45px;
   width:100%;
-  
 }
-.photoSectionDisplay--pic{
-   display: grid;
-  grid-template-columns: repeat(1, minmax(200px, 1fr));
-  grid-template-row:;
-  gap: 10px;
+.close-button{
+ font-size:18px;
+ right:15px;
+
+}
+.nav-buttonLeft {
+  left: 13px;
+  font-size: 32px;
+  z-index:10; 
+}
+
+.nav-buttonRight {
+  right: 15px;
+  font-size: 32px; 
+  z-index:10;
+}
+.photoSectionDisplay{
+  
+  padding-top:30.333px;
  
  }
+.photoTour > button{
+margin-top:30px;
+margin-left:15px;
+
+}
+.photoSectionDisplay--pic > div >img{
+  width: 400px; 
+  height: 400px; 
+  object-fit: cover;
+ }
+.photoTourNav{
+ 
+  display: flex;
+  padding: 50.333px 15.333px;
+  gap:20px;
+  flex-direction:column;
+  
+}
+
 }
 @media only screen and (max-width: 480px) {
 .photoTourNav--links {
-  grid-template-columns: repeat(3, 60px);
-  grid-template-rows: repeat(3, 50px);
-  grid-column-gap: 45px;
-  grid-row-gap: 85px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4,100px);
+  grid-column-gap: 5px;
+  grid-row-gap: 25px;
   width:100%;
+  
 }
+ .photoSectionDisplay--pic > div >img{
+  width: 350px; 
+  height: 400px; 
+  object-fit: cover;
+ }
+.photoTourNav{
  
-
+  display: flex;
+  padding: 50.333px 15.333px;
+  gap:20px;
+  flex-direction:column;
+  
+}
   
  
  
   
 }
 @media only screen and (max-width: 410px) {
-
- 
+.photoTourNav--links {
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(6, 70px);
+  grid-column-gap: 5px;
+  grid-row-gap: 25px;
+  width:100%;
+  
+}
+ .photoSectionDisplay--pic > div >img{
+  width: 300px; 
+  height: 300px; 
+  object-fit: cover;
+ }
   
   
  

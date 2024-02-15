@@ -6,114 +6,299 @@
   padding-bottom:0px;
   height:100%;
   gap:10px;
+  position: relative;
+  
 }
 .bookingContent{
- display: flex;
+ display: grid;
+  grid-template-columns: repeat(3, 1fr); 
  flex-direction:row;
-gap:10px;
+ gap:10px;
+
 }
 
-
 .leftPart{ 
-  border:1px solid lightgray;
+ grid-column: 1 / span 2;
+ box-sizing: border-box;
   display:flex;
-  justify-content:center;
-  align-items:center;
-  max-height:759px;
+  flex-direction:column;
   overflow-y: scroll;
   border-radius: 10px;
+  font-size:20px;
+  gap:0px;
+  padding-top:30px;
+  padding-bottom:0px;
+  
  
+}
+.leftPart::-webkit-scrollbar {
+  width: 0; /* Set the width to 0 to hide the scrollbar */
 }
 .rdrDefinedRangesWrapper {
   display: none !important;
 }
+
 .rdrMonthsVertical {
   flex-direction: row !important;
   flex-wrap:wrap;
+  gap:none;
+  }
+  
+  
+  .rdrMonthName{
+ 
+ margin-top:-50px;
+}
+
+.custom-date-range-picker{
+margin-top:15px;
+
+ 
+}
+
+.rdrMonthsVertical {
+  flex-direction: row !important;
+  flex-wrap:wrap;
+  gap:10px;
   }
  .rdrMonths {
- 
+  disply:flex;
   justify-content: center !important;
+  
+}
+
+.rdrMonthName{
+ 
+ margin-top:-50;
 }
 
 
+.rdrDateDisplayWrapper {
+ display:none !important;
+}
+
+.rdrMonthAndYearPickers {
+  justify-content: flex-start !important;
+ 
+}
+.rdrMonthAndYearWrapper {
+  box-sizing: inherit;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.rdrNextPrevButton {
+  display: block;
+  width: 24px;
+  height: 24px;
+  margin: 0 0.833em;
+  padding: 0;
+  border: 0;
+  border-radius: 5px;
+  background: #EFF2F7;
+}
+.rdrWeekDays{
+ display:none !important;
+
+}
+
+.notes{
+ margin-top:20px;
+  padding-left:0px;
+   padding-right:0px;
+   
+
+}
+.notes button{
+ color: blue; 
+ border:none;
+ font-size:20px;
 
 
-
-
+}
+  
 .rightPart{
-  border:1px solid lightgray;
+  grid-column: 3;
   display:flex;
   flex-direction:column;
   padding: 20px 20px;
   border-radius: 10px;
   align-items:center;
-
+  position: relative;
+}
+.form{
+  margin-top:20px;
+  position: sticky;
+  top: 150px;
+   z-index: 2;
+  border:1px solid lightgray;
+  padding:20px;
+   border-radius: 10px; /* Add rounded corners */
+  box-shadow: 0 0 15px rgba(128, 128, 128, 0.3); 
+}
+.formWidth{
+ width:350px;
+ display:flex;
+ flex-direction:column;
+ justify-content:center;
+ align-items:center;
+ padding-top:20px;
+ padding-bottom:20px;
 }
 
-
 .rightPart--title{
+  
   margin-bottom:20px;
   font-weight:600;
   text-align:center;
+  font-size:25px;
   
 }
-
+.rightPart--title span {
+  font-weight: normal;
+  font-size:18px;
+}
 
 
 .rightPart--dateChooseBox{
  display:flex;
  margin-bottom:20px;
  border-radius: 10px;
- justify-content:space-between;
+ background-color:rgb(239, 242, 247);
+ font-size:15px;
  
+ padding:10px;
+ align-items:center;
+ justify-content:space-between;
+  position: relative;
+ flex-wrap:wrap;
+ 
+}
+/* about date range picker*/
+.dateRange{
+ position:absolute;
+ top:150px;
+ z-index:3;
+ border:1px solid lightgray;
+
 }
 
 .highlighted-range {
-   background-color: #FF5A5F !important;
+   background-color: green !important;
   
 }
-.custom-date-picker{
-  border: none !important;
+
+.widthofInut{
+ width:100px !important;
+ 
 }
 
 
-
-.rightPart--checkInBox,
-.rightPart--checkOutBox
+.rightandleft--checkInBox
 {
- display: flex;
-  flex-direction: column;
-  padding: 20px;
-  border: 1px solid gray;
-  border-radius: 10px;
-  justify-content: space-between; 
+
+  display: flex;
+  flex-direction: column; 
+  gap:5px;
   align-items: flex-start; 
-  
+ 
+ 
 }
 
+.react-date-picker__calendar {
+    top: calc(100% + 1px) !important; 
+    left: 0;
+}
 
-/*.rightPart--formSection{
+.rightPart--formSection{
  display:flex;
  flex-direction:column;
  justify-content:center;
  margin-bottom:20px;
  gap:5px;
  color:DarkSlateGrey ;
+ border-color:lightgray;
+ 
 
-
-}*/
+}
 .form-style{
   display:flex;
  flex-direction:column;
  justify-content:center;
- margin-bottom:20px;
+ margin-bottom:5px;
+ 
 
  gap:5px;
  color:DarkSlateGrey ;
+ 
+}
 
+.formDropdown{
+ display:flex;
+ justify-content:space-between;
+ border:1px solid lightgray;
+ border-radius: 5px;
+ padding:10px;
+ position:relative;
+}
+.formDropdown > button{
+ display:flex;
+ align-items:center;
+ border:none;
+ background:none;
 
 }
+.formDropdown > button:hover{
+ display:flex;
+ align-items:center;
+ border:none;
+  background-color:rgb(239, 242, 247);
+
+}
+.formDropdown>button>img{
+ width:20px;
+ height:20px;
+ 
+}
+.dropDownAbsolute{
+ position:absolute;
+ max-width:310px;
+ background:white;
+ padding:20px;
+ margin-left:40px;
+ margin-right:20px;
+ border:1px solid lightgray;
+
+}
+.dropDownAbsolute >button{
+  margin-top:20px;
+  margin-left: auto; /* Align the button to the right */
+  display: block; /* Ensure the button takes the full width available */
+  /* Your additional button styles */
+ 
+ 
+}
+.form-style label {
+    display: block;
+ 
+}
+
+.form-style input {
+    height:27px;
+    margin-bottom:5px;
+    border:1px solid lightgray;
+    width:100%; 
+    box-sizing: border-box; 
+    touch-action: manipulation !important; 
+    
+}
+
+.react-date-picker__inputGroup{
+font-size:13px;
+margin-right:-15px;
+
+}
+
 
 .inbox {
   border: none;
@@ -121,13 +306,7 @@ gap:10px;
   
  
 }
-.bookingbutton{
-border-radius: 10px;
-margin-top:30px;
-background-color:#FF5A5F;
-width:100%;
-height:40px;
-}
+
 
 /* Section styling */
 .forSummary p{  text-align:Center;
@@ -163,45 +342,191 @@ height:40px;
   border-top: 2px solid #ddd;
 }
 
-
-
-@media only screen and (max-width: 1200px) {
-.bookingContent{
- display: flex;
- flex-direction:column;
- gap:0px;
+.overlay {
+  position:fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3); /* Semi-transparent black overlay */
+  z-index: 2; /* Below the popup but above the rest of the content */
+  border-radius:8px;
 }
 
-.leftPart{
+.successpopup {
+  position: fixed;
+  z-index: 2;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ width: 60%;
+  max-height: 70%;
+  background-color: #fff; /* White background */
+  padding: 30px;
+  box-shadow: 0 0 15px rgba(128, 128, 128, 0.3); 
+
+  text-align: start;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  border-radius:8px;
+  row-gap:10px;
+  font-size:20px;
+ 
   
-  max-height:500px;
-  overflow: scroll;
-  margin-bottom:10px;
+}
+.successpopup ul{
+ list-style:none;
+  margin: 0;
+  padding: 0;
+  line-height:25px;
+}
+.successpopup button {
+  /*position: fixed; */
+  
+  background-color:LimeGreen;
+ 
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius:8px;
+  max-width:70px;
+  align-self: flex-end;
  
 }
-  .rightPart--dateChooseBox {
-    flex-direction: column; 
-  }
+.successpopup p{
+ line-height: 25px;
+}
 
-  .rightPart--checkInBox,
-  .rightPart--checkOutBox { 
-    margin-bottom: 10px; 
-  }
-  .bookingSection {
+
+.check{
+ width:20px;
+ height:20px;
+
+}
+.detailsdisplay{
+background-color:rgb(239, 242, 247);
+ padding:10px;
+ margin-top:10px;
+ margin-bottom:10px;
+ 
+
+}
+
+
+
+.houseRolepopup ul,
+.houseRolepopup ol {
+  margin-bottom: 10px; /* Set margin-bottom to create a gap between lists */
+}
+
+.houseRolepopup li {
+  margin-bottom: 10px; /* Set margin-bottom to create a gap between list items */
+}
+
+.houseRolepopup button {
+  margin-top:10px;
+   background-color:LimeGreen;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius:8px;
+  max-width:70px;
+  align-self: flex-end;
+}
+.CheckInAndOut {
+  display: flex;
+  justify-content: space-between;
+  max-width:500px;
+  
+}
+
+.CheckInAndOut > div {
+  
+  margin-top:20px;
+  padding:10px;
+  font-size:15px;
+  color:DimGray;
+}
+
+.CheckInAndOut > div p {
+ 
+  color: #666; 
+  box-shadow: 0 0 15px rgba(128, 128, 128, 0.3); 
+  font-weight:600;
+  border:1px solid lightgray;
+  padding:20px;
+  font-size:20px;
+  color:black;
+  margin-top:20px;
+}
+
+.closeButtonforForm{
+  background-color: SeaShell; 
+  padding-top: 10px;
+  padding-bottom: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  
+  color: black; /* Text color */
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+.closeButtonforForm:hover {
+  background-color: lightgray; /* Change to the desired color on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
+  background-color:white;
+}
+
+
+.react-calendar__tile:disabled {
+    color:gray !important;
+    background-color:white !important;
+    /*background-color:rgb(239, 242, 247) !important;*/
+    text-decoration: line-through !important;
+}
+
+.react-calendar__tile--active {
+    background: green !important;
+    color: white;
+}
+
+.react-calendar__tile--now {
+  
+   
+}
+@media only screen and (max-width: 1330px) and (min-width: 1201px) {
+ .leftPart .custom-date-range-picker {
+  display:none;
+  
+}
+
+
+}
+@media only screen and (max-width: 1200px) {
+.leftPart .custom-date-range-picker {
+    display: block; }
+    
+.bookingSection{
+  padding: 0.333px 15.333px;
+  padding-bottom:0px;
+  gap:10px; 
+}
+ .bookingSection {
     padding-left: 85px ;
     padding-right: 85px ; 
     padding-top:35px;
   }
-
-  
-
- 
-
-  .rightPart--dateChooseBox {
-    flex-direction: column; 
-  }
-
-  
+.centered-notes {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%; /* Adjust as needed */
+  max-width:714px;
+}
 
   .rightPart--formSection,
   .form-style {
@@ -216,15 +541,8 @@ height:40px;
     width: 100%; 
   }
 
- .rightPart--checkInBox{
-  
-  flex-direction: row;
-  
-}
-.rightPart--checkOutBox {
- 
-  flex-direction: row;
-}
+
+
 .bookingbutton{
 border-radius: 10px;
 margin-top:30px;
@@ -232,17 +550,24 @@ background-color:#FF5A5F;
 width:100%;
 height:30px;
 }
+
+.bookingContent{
+ display: flex;
+ flex-direction:column;
+ gap:0px;
+}
+
+
+
 }
 /************************************************/
 @media only screen and (max-width: 1024px) {
 .bookingSection {
- 
+  padding-top:0px; 
     padding-left: 15px ;
-    padding-right: 15px ; 
-    
+    padding-right: 15px ;    
   }
-  .form-style{
- 
+.form-style{
  margin-bottom:10px;
  gap:5px;
  color:DarkSlateGrey ;
@@ -255,21 +580,143 @@ background-color:#FF5A5F;
 width:100%;
 margin-bottom:20px;
 }
+.successpopup { 
+  max-width: 500px;
+  max-height: 500px;
+  font-size:10px;
+}
+
+.notes{
+  padding-left:15px;
+   padding-right:15px;
+
+}
  } 
  
- @media only screen and (max-width: 460px){
- .leftPart{
+ @media only screen and (max-width: 900px){
+ .centered-notes {
+  
+  max-width:374px;
+}
+.leftPart .custom-date-range-picker {
+  display:none;
+}
+
+ }
  
-  max-height:300px;
-  overflow: scroll;
+@media only screen and (max-width: 760px){
+  
+  .bookingSection{
+  
+  padding: 0.333px 15.333px;
+  padding-bottom:0px;
+  gap:5px;
+  
+}
+ h2{
+
+  font-size:20px;
+
+}
+
+  .bookingContent{
+ display: flex;
+ flex-direction:column;
+ gap:0px;
+}
+.leftPart {
+padding-bottom:0px;
+
+}
+.rightPart{
+padding-top:0px;
+}
+.leftPart .custom-date-range-picker {
+  display:none;
+}
+
+ 
+.successpopup {
+  top:58%;
+  max-width: 500px;
+  max-height: 500px;
+  font-size:10px;
+  padding-bottom:20px;
+  min-width:200px;
+}
+.successpopup button {
+  /*position: fixed; */
+  
+  background-color:LimeGreen;
+ 
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius:8px;
+  max-width:70px;
  
 }
+
+  }
+ @media only screen and (max-width: 460px){
  
+ .rightPart--dateChooseBox{
+ font-size:13px;
+ 
+}
+.successpopup ul{
+
+  line-height:20px;
+}
+.successpopup p{
+ line-height: 20px;
+}
+
+ .CheckInAndOut > div {
+  margin-top:10px;
+  margin-right:30px; 
+  padding:5px;
+  font-size:13px;
+ 
+}
+.react-date-picker__inputGroup{
+font-size:10px;
+margin-right:-10px;
+
+}
+/*.notes p{
+  padding-left:0px;
+   padding-right:0px;
+   font-size:15px;
+
+}
+.notes button{
+ color: blue; 
+ border:none;
+ font-size:15px;
+
+
+}*/
+.CheckInAndOut > div p {
+  margin: 5px 0;
+ 
+  padding:10px;
+  font-size:13px;
+  color:black;
+}
+
+
+.react-date-picker__wrapper {
+    display: flex;
+    flex-grow: 2;
+    flex-shrink: 0;
+    border: thin solid gray;
+    
+}
  .rightPart--title{
   margin-top:20px;
   text-align:center;
-
-
 }
  
  .rightPart--checkInBox{
@@ -280,19 +727,91 @@ margin-bottom:20px;
   flex-direction: row;
  
 }
+.rightPart--checkInBox{
+  flex-direction: column; 
+  
+}
+.rightPart--checkOutBox {
+  flex-direction: column;
+ 
+}
+.rightPart{
+ 
+  min-width:250px;
+  
+}
+
+.successpopup {
+  position: fixed;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 400px;
+  min-width:250px;
+  max-height: 600px;
+  background-color: #fff; /* White background */
+  padding: 20px;
+  padding-bottom:30px;
+
+  text-align: start;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  border-radius:8px;
+  row-gap:0px;
+  font-size:10px;
+}
+.rdrMonthAndYearWrapper {
+  box-sizing: inherit;
+  display: flex;
+  justify-content: space-between;
+  width:350px !important;
+}
+
  }
  
  
  
 @media only screen and (max-width: 400px) {
+ .successpopup p{
+ line-height: 15px;
+}
+
  .rightPart{
   padding: 0px 0px;
+ 
 
+}
+
+.rightPart--checkInBox{
+  flex-direction: column; 
+  
+}
+.rightPart--checkOutBox {
+  flex-direction: column;
+ 
 }
 
 .rightPart--dateChooseBox{
+ display:flex;
+ flex-direction:row;
  padding:5px;
+ gap:0px;
+
 }
+
+.formWidth{
+ width:250px;
+ display:flex;
+ flex-direction:column;
+ justify-content:center;
+ align-items:center;
+ 
+}
+
+
+
 .form-style {
  margin-bottom:5px;
  gap:5px;
@@ -300,6 +819,7 @@ margin-bottom:20px;
 .rightPart--formPadding{
  padding:10px;
 }
+
 .summary--section{
    padding-top:0px;
    padding-left:20px;
@@ -313,24 +833,53 @@ margin-bottom:20px;
   font-size: 20px;
   font-weight: bold;
   border-top: 2px solid #ddd;
+  padding-bottom:10px;
 }
 
 .bookingbutton{
  border-radius: 10px;
-margin-top:5px;
-
+ margin-top:5px;
 background-color:#FF5A5F;
 
+}
 
+.dropDownAbsolute{
+
+ height:460px;
+ font-size:13px;
+ max-width:190px;
+}
+.successpopup {
+ 
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 300px;
+  min-width:250px;
+  max-height: 600px;
+  background-color: #fff; /* White background */
+  padding: 20px;
+  padding-bottom:30px;
+
+  text-align: start;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  border-radius:8px;
+  row-gap:0px;
+  font-size:10px;
+}
+}
+@media only screen and (max-width: 300px) {
+.successpopup {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 250px;
+  
+}
 
 
 }
-
-}
-
-
-
-
-
 
 
